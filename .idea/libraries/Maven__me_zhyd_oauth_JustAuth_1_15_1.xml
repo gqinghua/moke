@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: me.zhyd.oauth:JustAuth:1.15.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.15.1/JustAuth-1.15.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.15.1/JustAuth-1.15.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.15.1/JustAuth-1.15.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

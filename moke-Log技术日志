@@ -1,0 +1,53 @@
+约定以mapper层开发为主,复杂业务需要使用sql的,在resources下写,扫描需要在配置文件里里说明
+
+
+为了开发的便利,开发环境以本机和公司的虚拟机为准,一个是开发,一个是测试集成等
+运行环境以k8s为准. docker为必备.也由于docker安装各个软件极为便利,所以这里不讲docker安装mysql,redis,rabbitmq等安装
+讲一些不经常用到的
+
+win下安装rocketmq
+
+Cmd命令框执行进入至‘MQ文件夹\bin’下，然后执行‘start mqnamesrv.cmd’，启动NAMESERVER。成功后会弹出提示框，此框勿关闭。
+启动BROKER
+Cmd命令框执行进入至‘MQ文件夹\bin’下，然后执行‘start mqbroker.cmd -n 127.0.0.1:9876 autoCreateTopicEnable=true’，启动BROKER。成功后会弹出提示框，此框勿关闭。
+
+
+ RocketMQ插件部署
+1. 下载
+地址：https://github.com/apache/rocketmq-externals.git
+ocketmq-externals\rocketmq-console\src\main\resources’文件夹，打开‘application.properties’进行配置。
+配置文件如下 -------------------开始------------------------------
+server.contextPath=
+server.port=8088
+#spring.application.index=true
+spring.application.name=rocketmq-console
+spring.http.encoding.charset=UTF-8
+spring.http.encoding.enabled=true
+spring.http.encoding.force=true
+logging.config=classpath:logback.xml
+#if this value is empty,use env value rocketmq.config.namesrvAddr  NAMESRV_ADDR | now, you can set it in ops page.default localhost:9876
+rocketmq.config.namesrvAddr=127.0.0.1:9876
+#if you use rocketmq version < 3.5.8, rocketmq.config.isVIPChannel should be false.default true
+rocketmq.config.isVIPChannel=
+#rocketmq-console's data path:dashboard/monitor
+rocketmq.config.dataPath=/tmp/rocketmq-console/data
+#set it false if you don't want use dashboard.default true
+rocketmq.config.enableDashBoardCollect=true
+-----------------------------结束----------------------------------
+用CMD进入‘\rocketmq-externals\rocketmq-console’文件夹，执行‘mvn clean package -Dmaven.test.skip=true’，编译生成。
+Cmd进入‘target’文件夹，执行‘java -jar rocketmq-console-ng-1.0.0.jar’，启动‘rocketmq-console-ng-1.0.0.jar’
+浏览器中输入‘127.0.0.1:配置端口’，成功后即可查看。
+
+
+
+
+启动sentinel-dashboard 项目,访问地址为127.0.0.1:8080  不可用localhost:8080来访问
+在在bootstrap.yml配置文件里加入配置 加入sentinel-transport-simple-http此依赖可以在控制台看到该应用的
+基本情况,在jvm里加入配置-Dproject.name=UassServerApp -Dcsp.sentinel.dashboard.server=127.0.0.1:8080
+-Dproject.name应用名称,-Dcsp.sentinel.dashboard.server是dashboard的地址
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+

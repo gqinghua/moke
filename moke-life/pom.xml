@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>moke</artifactId>
+        <groupId>com.moke</groupId>
+        <version>1.5.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>moke-life</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <!--墨客公益-->
+        <module>moke-charity</module>
+        <!--种草社-->
+        <module>moke-GrassClub</module>
+        <!--动态-->
+        <module>moke-Dynamic</module>
+        <!--食谱-->
+        <module>moke-recipe</module>
+        <!-- 盒区生活-->
+        <module>moke-theme</module>
+        <!-- 直播-->
+        <module>moke-live</module>
+        <!-- 爬虫-->
+        <module>moke-magic</module>
+<!--        <module>moke-demo01</module>-->
+<!--        <module>nacos-service-consumer</module>-->
+<!--        <module>nacos-service-provider</module>-->
+    </modules>
+
+
+</project>

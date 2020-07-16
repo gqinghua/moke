@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.j-im:jim-common:2.6.0.v20190114-RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/j-im/jim-common/2.6.0.v20190114-RELEASE/jim-common-2.6.0.v20190114-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/j-im/jim-common/2.6.0.v20190114-RELEASE/jim-common-2.6.0.v20190114-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/j-im/jim-common/2.6.0.v20190114-RELEASE/jim-common-2.6.0.v20190114-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

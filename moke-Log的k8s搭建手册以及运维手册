@@ -1,0 +1,79 @@
+2020/5/31 虚拟机搭建k8s
+
+至少2台 2核4G 的服务器Cent OS 7.6
+
+检查 centos / hostname
+
+# 在 master 节点和 worker 节点都要执行
+cat /etc/redhat-release
+
+# 此处 hostname 的输出将会是该机器在 Kubernetes 集群中的节点名字
+# 不能使用 localhost 作为节点的名字
+hostname
+
+# 请使用 lscpu 命令，核对 CPU 信息
+# Architecture: x86_64    本安装文档不支持 arm 架构
+# CPU(s):       2         CPU 内核数量不能低于 2
+lscpu
+
+修改 hostname
+
+如果您需要修改 hostname，可执行如下指令：
+
+# 修改 hostname
+hostnamectl set-hostname your-new-host-name
+# 查看修改结果
+hostnamectl status
+# 设置 hostname 解析
+echo "127.0.0.1   $(hostname)" >> /etc/hosts
+
+检查网络
+
+# 只在 master 节点执行
+# 替换 x.x.x.x 为 master 节点实际 IP（请使用内网 IP）
+# export 命令只在当前 shell 会话中有效，开启新的 shell 窗口后，如果要继续安装过程，请重新执行此处的 export 命令
+export MASTER_IP=x.x.x.x
+# 替换 apiserver.demo 为 您想要的 dnsName
+export APISERVER_NAME=apiserver.demo
+# Kubernetes 容器组所在的网段，该网段安装完成后，由 kubernetes 创建，事先并不存在于您的物理网络中
+export POD_SUBNET=10.100.0.1/16
+echo "${MASTER_IP}    ${APISERVER_NAME}" >> /etc/hosts
+curl -sSL https://kuboard.cn/install-script/v1.18.x/init_master.sh | sh -s 1.18.2
+
+
+# 只在 master 节点执行
+
+# 执行如下命令，等待 3-10 分钟，直到所有的容器组处于 Running 状态
+watch kubectl get pod -n kube-system -o wide
+
+# 查看 master 节点初始化结果
+kubectl get nodes -o wide
+
+
+
+ # 只在 master 节点执行
+ kubeadm token create --print-join-command
+
+ 初始化worker
+
+ 针对所有的 worker 节点执行
+ $ cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+ [kubernetes]
+ name=Kubernetes
+ baseurl=https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64/
+ enabled=1
+ gpgcheck=1
+ repo_gpgcheck=1
+ gpgkey=https://mirrors.aliyun.com/kubernetes/yum/doc/yum-key.gpg https://mirrors.aliyun.com/kubernetes/yum/doc/rpm-package-key.gpg
+ EOF
+
+ $ setenforce 0
+ $ sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
+
+ $ yum install -y kubelet kubeadm kubectl
+
+ $ systemctl enable kubelet && systemctl start kubelet
+
+
+# 替换为 master 节点上 kubeadm token create 命令的输出
+kubeadm join apiserver.demo:6443 --token mpfjma.4vjjg8flqihor4vt     --discovery-token-ca-cert-hash sha256:6f7a8e40a81032

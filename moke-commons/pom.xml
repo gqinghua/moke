@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.moke</groupId>
+        <artifactId>moke</artifactId>
+        <version>1.5.0</version>
+    </parent>
+    <artifactId>moke-commons</artifactId>
+    <description>通用组件</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>moke-redis-spring-boot-starter</module>
+        <module>moke-common-spring-boot-starter</module>
+        <module>moke-db-spring-boot-starter</module>
+        <module>moke-swagger2-spring-boot-starter</module>
+        <module>moke-log-spring-boot-starter</module>
+        <module>moke-ribbon-spring-boot-starter</module>
+        <module>moke-auth-client-spring-boot-starter</module>
+        <module>moke-sentinel-spring-boot-starter</module>
+        <module>moke-sequence-spring-boot-starter</module>
+<!--        <module>moke-minio-spring-boot-starter</module>-->
+
+        <!--<module>moke-elasticsearch-spring-boot-starter</module>-->
+        <!--<module>moke-filter-spring-boot-starter</module>-->
+    </modules>
+</project>

@@ -1,0 +1,48 @@
+es安装环境极为复杂,但是对环境极为苛刻,宿主机运行内存最低为2g,这是因为es极为依赖内存,内存是特别宝贵的资源
+作为一个nosql数据库,爬虫,大数据库分析,日志分析,搜索等日常运维基本的掌握的技能.
+非话不多说简单讲一下win下安装es,docker就不多讲了,官方是有专门的镜像的,好了.
+ElasticStack 技术栈的其他技术Beats、Kibana、Logstash
+以上技术简称elk
+https://www.elastic.co/cn/products/beats 官网技术简介
+下载 版本为：filebeat-6.5.4）：https://www.elastic.co/downloads/beats
+mkdir /moke/beats
+tar -xvf filebeat-6.5.4-linux-x86_64.tar.gz
+cd filebeat-6.5.4-linux-x86_64
+ #创建如下配置文件
+ haoke.yml
+ filebeat.inputs: - type: stdin enabled: true setup.template.settings: index.number_of_shards: 3 output.console: pretty: true enable: true
+
+ #启动filebeat
+ ./filebeat -e -c haoke.yml
+  #输入hello运行结果如下：
+  hello
+
+
+
+ kibana安装docker方式
+ #拉取镜像
+docker pull kibana:6.5.4
+ #创建配置文件
+vim kibana.yml
+server.host: "192.168.1.7"
+ elasticsearch.url: "http://192.168.1.7:9200"
+ #创建容器
+docker create --name kibana --net host -v /haoke/beats/kibana- docker/kibana.yml:/usr/share/kibana/config/kibana.yml kibana:6.5.4
+     #启动容器
+docker logs -f kibana
+
+安装配置： 1、新版本要求至少jdk1.8以上。 2、支持tar、zip、rpm等多种安装方式
+3、支持docker方式安装 详细参见：https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html
+
+
+win zip包目录如下
+bin：脚本目录，包括：启动、停止等可执行脚本 config：配置文件目录 data：索引目录，存放索引文件的地方 logs：日志目录 modules：模块目录，包括了es的功能模块 plugins :插件目录，es支持插件机制
+
+
+
+
+elasticsearch.yml ： 用于配置Elasticsearelasticsearch.yml ： 用于配置Elasticsearchelasticsearch.yml ： 用于配置Elasticsearch运行参数 jvm.options ： 用于配置Elasticsearch JVM设置 log4j2.properties： 用于配置Elasticsearch日志运行参数 jvm.options ： 用于配置Elasticsearch JVM设置 log4j2.properties： 用于配置Elasticsearch日志ch运行参数 jvm.options ： 用于配置Elasticsearch JVM设置 log4j2.properties： 用于配置Elasticsearch日志
+
+
+elasticsearch.yml 配置格式是YAML，可以采用如下两种方式： 方式1：层次方式 path: data: /var/lib/elasticsearch logs: /var/log/elasticsearch 方式2：属性方式 path.data: /var/lib/elasticsearch path.logs: /var/log/elasticsearch
+

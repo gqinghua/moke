@@ -1,0 +1,61 @@
+server:
+  port: 8000
+
+moke:
+  nacos:
+    server-addr: localhost:8848
+
+spring:
+  application:
+    name: uaa-server
+  cloud:
+    nacos:
+      config:
+        server-addr: ${moke.nacos.server-addr}
+        file-extension: yml
+        #          参数用来配置多个共享配置的Data Id，多个的时候用用逗号分隔
+        shared-dataids: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+        #        参数用来定义哪些共享配置的 Data Id 在配置变化时，应用中可以动态刷新，多个 Data Id 之间用逗号隔开。如果没有明确配置，默认情况下所有共享配置都不支持动态刷新。
+        refreshable-dataids: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+      #        选择命名空间,不配者默认
+      #        namespace: 0804283e-ddc8-4fff-b598-d01f0b8c5993
+      discovery:
+        server-addr: ${moke.nacos.server-addr}
+#    sentinel:
+#      datasource:
+
+  profiles:
+    active: dev
+
+#        sentinel流量卫兵
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+      datasource:
+        ds1:
+          nacos:
+            servcer-addr: 127.0.0.1:8848
+            groupId: DEFAULT_GROUP
+            dataId: ${spring.application.name}-sentinel
+            data-type: json
+            rule-type: flow
+
+
+
+
+  #        zipkin追踪链
+  zipkin:
+    base-url: http://127.0.0.1:9411
+    sender:
+      type: web
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      probability: 1.0
+encrypt:
+  key-store:
+    location: classpath:zlt.jks
+    secret: zlt!@#$
+    alias: zlt
