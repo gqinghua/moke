@@ -3,7 +3,7 @@ package com.moke.file.model;
 /**
  * 仅支持阿里云 oss ,七牛云等
  *
- * @author 作者 mallplus E-mail: 951449465@qq.com
+ * @author
  */
 public enum FileType {
     //七牛

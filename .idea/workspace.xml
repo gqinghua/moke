@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a64d53b1-3b03-415b-92af-234707b5ce7c" name="Default Changelist" comment="2020/7/18日 10:28">
+    <list default="true" id="a64d53b1-3b03-415b-92af-234707b5ce7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/CmsCenterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/CmsCenterApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/config/PasswordConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/config/PasswordConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/src/main/java/com/moke/generator/CodeGeneratorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/code-generator/src/main/java/com/moke/generator/CodeGeneratorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/src/main/java/com/moke/generator/controller/SysGeneratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/code-generator/src/main/java/com/moke/generator/controller/SysGeneratorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/src/main/java/com/moke/generator/service/impl/SysGeneratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/code-generator/src/main/java/com/moke/generator/service/impl/SysGeneratorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/file-center/src/main/java/com/moke/file/model/FileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/file-center/src/main/java/com/moke/file/model/FileType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/src/main/java/com/moke/goods/vo/PmsProductAndGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/goods-center/src/main/java/com/moke/goods/vo/PmsProductAndGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/member-center/src/main/java/com/moke/member/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/member-center/src/main/java/com/moke/member/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-commons/moke-common-spring-boot-starter/src/main/java/com/moke/common/feign/MarkingFeignClinent.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-commons/moke-common-spring-boot-starter/src/main/java/com/moke/common/feign/MarkingFeignClinent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/controller/ClientController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,7 +401,7 @@
       <workItem from="1594985255177" duration="1400000" />
       <workItem from="1595053698914" duration="1217000" />
       <workItem from="1595055787846" duration="167000" />
-      <workItem from="1595063770206" duration="1625000" />
+      <workItem from="1595063770206" duration="1878000" />
     </task>
     <task id="LOCAL-00001" summary="2020/7/15日 10:28  重新开始项目  项目回滚.">
       <created>1594868991119</created>
@@ -407,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594912094513</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2020/7/18日 10:28  我今天有点生气">
+      <created>1595065961069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595065961069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,25 +432,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020/7/15日 10:28  重新开始项目  项目回滚." />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/7/15日 10:28  重新开始项目  项目回滚." />
+    <MESSAGE value="2020/7/18日 10:28  我今天有点生气" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/7/18日 10:28  我今天有点生气" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Notifications" timestamp="1594869257241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594869257241" />
-    <state x="361" y="71" key="#Project_Structure" timestamp="1595055885529">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1595066043497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1595055885529" />
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1595066043497" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594828295386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594828295386" />
-    <state x="199" y="2" key="CommitChangelistDialog2" timestamp="1595054916135">
+    <state x="378" y="271" width="779" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595066004950">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="199" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595054916135" />
+    <state x="378" y="271" width="779" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1595066004950" />
+    <state x="199" y="2" key="CommitChangelistDialog2" timestamp="1595065960346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="199" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595065960346" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594955219798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -494,13 +516,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="127" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1594909794554" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594912236827">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595065988943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594912236827" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595065988943" />
     <state x="201" y="144" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1594910722465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="201" y="144" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1594910722465" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595066125381">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595066125381" />
+    <state x="447" y="145" width="734" height="534" key="find.popup" timestamp="1595066121048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="145" width="734" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1595066121048" />
   </component>
 </project>

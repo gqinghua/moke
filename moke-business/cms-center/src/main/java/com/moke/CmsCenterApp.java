@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @author 作者 mallplus E-mail: 951449465@qq.com
+ * @author
  */
 @EnableLoginArgResolver
 @EnableDiscoveryClient

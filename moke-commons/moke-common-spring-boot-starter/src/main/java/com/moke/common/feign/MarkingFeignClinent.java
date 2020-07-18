@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 /**
- * @author mall
+ * @author
  */
 @FeignClient(name = ServiceNameConstants.MARKING_SERVICE, fallbackFactory = PmsFeignClientFallbackFactory.class, decode404 = true)
 public interface MarkingFeignClinent {

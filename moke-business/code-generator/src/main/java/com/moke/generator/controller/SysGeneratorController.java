@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import io.swagger.annotations.Api;
 
 /**
- * @Author: mall
+ * @Author:
  */
 @RestController
 @Api(tags = "代码生成器")

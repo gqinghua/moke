@@ -4,7 +4,7 @@ import com.moke.common.config.DefaultPasswordConfig;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author mall
+ * @author
  * @date 2019/1/2
  */
 @Configuration
