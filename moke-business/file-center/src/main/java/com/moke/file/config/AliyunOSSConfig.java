@@ -10,7 +10,7 @@ import com.aliyun.oss.OSSClient;
 /**
  * 阿里云配置
  *
- * @author 作者 mallplus E-mail: 951449465@qq.com
+ * @author
  */
 @Configuration
 public class AliyunOSSConfig {
