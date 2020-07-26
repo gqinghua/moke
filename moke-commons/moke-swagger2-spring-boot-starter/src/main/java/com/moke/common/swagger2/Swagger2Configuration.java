@@ -7,11 +7,11 @@ import springfox.documentation.swagger2.configuration.Swagger2DocumentationConfi
 
 /**
  *
- * @author mall
+ * @author
  * @date 2018/11/18 9:20
  */
 @Configuration
-@ConditionalOnProperty(name = "mall.swagger.enabled", matchIfMissing = true)
+@ConditionalOnProperty(name = "moke.swagger.enabled", matchIfMissing = true)
 @Import({
         Swagger2DocumentationConfiguration.class
 })
