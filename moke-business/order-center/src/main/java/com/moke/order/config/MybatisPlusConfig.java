@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author mall
+ * @author
  * @date 2018/12/10
  */
 @Configuration
@@ -35,6 +35,7 @@ public class MybatisPlusConfig extends DefaultMybatisPlusConfig {
     /**
      * 分页插件
      */
+    @Override
     @Bean
     public PaginationInterceptor paginationInterceptor() {
 

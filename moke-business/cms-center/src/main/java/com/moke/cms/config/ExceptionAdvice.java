@@ -5,7 +5,7 @@ import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 
 /**
- * @author mall
+ * @author
  * @date 2018/12/22
  */
 @ControllerAdvice
