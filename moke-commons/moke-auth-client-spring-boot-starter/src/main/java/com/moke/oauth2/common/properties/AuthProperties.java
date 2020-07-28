@@ -6,7 +6,7 @@ import lombok.Setter;
 /**
  * 认证配置
  *
- * @author mall
+ * @author
  */
 @Setter
 @Getter

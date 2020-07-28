@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author mall
+ * @author
  */
 @Slf4j
 public class DefaultSecurityHandlerConfig {

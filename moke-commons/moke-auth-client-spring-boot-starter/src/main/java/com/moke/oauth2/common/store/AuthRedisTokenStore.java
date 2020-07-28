@@ -9,7 +9,7 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
  * 认证服务器使用Redis存取令牌
  * 注意: 需要配置redis参数
  *
- * @author mall
+ * @author
  * @date 2018/7/25 9:36
  */
 public class AuthRedisTokenStore {

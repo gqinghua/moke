@@ -3,8 +3,8 @@ package com.moke.oauth2.common.constants;
 /**
  * 权限常量
  *
- * @author mall
- * @date 2018/7/24 16:05
+ * @author
+ * @date
  */
 public enum AuthoritiesEnum {
     /**

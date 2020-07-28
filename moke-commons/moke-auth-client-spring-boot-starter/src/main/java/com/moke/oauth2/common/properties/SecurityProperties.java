@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 
 /**
- * @author mall
+ * @author
  * @date 2019/1/4
  */
 @Setter

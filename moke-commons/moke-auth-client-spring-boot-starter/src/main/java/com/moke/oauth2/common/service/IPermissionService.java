@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 请求权限判断service
  *
- * @author mall
+ * @author
  * @date 2018/10/28
  */
 public interface IPermissionService {
