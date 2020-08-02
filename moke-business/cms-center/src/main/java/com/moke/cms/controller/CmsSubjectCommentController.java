@@ -7,6 +7,7 @@ import com.moke.common.entity.cms.CmsSubjectComment;
 import com.moke.cms.service.ICmsSubjectCommentService;
 import com.moke.common.utils.CommonResult;
 import com.moke.common.utils.ValidatorUtils;
+import com.moke.util.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -40,16 +41,16 @@ public class CmsSubjectCommentController {
     @ApiOperation("根据条件查询所有专题评论表列表")
     @GetMapping(value = "/list")
     @PreAuthorize("hasAuthority('cms:CmsSubjectComment:read')")
-    public Object getCmsSubjectCommentByPage(CmsSubjectComment entity,
+    public Result getCmsSubjectCommentByPage(CmsSubjectComment entity,
                                              @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
                                              @RequestParam(value = "pageSize", defaultValue = "10") Integer pageSize
     ) {
         try {
-            return new CommonResult().success(ICmsSubjectCommentService.page(new Page<CmsSubjectComment>(pageNum, pageSize), new QueryWrapper<>(entity).orderByDesc("create_time")));
+            return Result.SUCCESS(ICmsSubjectCommentService.page(new Page<CmsSubjectComment>(pageNum, pageSize), new QueryWrapper<>(entity).orderByDesc("create_time")));
         } catch (Exception e) {
             log.error("根据条件查询所有专题评论表列表：%s", e.getMessage(), e);
         }
-        return new CommonResult().failed();
+        return Result.failed();
     }
 
     @SysLog(MODULE = "cms", REMARK = "保存专题评论表")
@@ -59,64 +60,64 @@ public class CmsSubjectCommentController {
     public Object saveCmsSubjectComment(@RequestBody CmsSubjectComment entity) {
         try {
             if (ICmsSubjectCommentService.save(entity)) {
-                return new CommonResult().success();
+                return Result.SUCCESS("查询成功");
             }
         } catch (Exception e) {
             log.error("保存专题评论表：%s", e.getMessage(), e);
             return new CommonResult().failed();
         }
-        return new CommonResult().failed();
+        return Result.failed();
     }
 
     @SysLog(MODULE = "cms", REMARK = "更新专题评论表")
     @ApiOperation("更新专题评论表")
     @PostMapping(value = "/update/{id}")
     @PreAuthorize("hasAuthority('cms:CmsSubjectComment:update')")
-    public Object updateCmsSubjectComment(@RequestBody CmsSubjectComment entity) {
+    public Result updateCmsSubjectComment(@RequestBody CmsSubjectComment entity) {
         try {
             if (ICmsSubjectCommentService.updateById(entity)) {
-                return new CommonResult().success();
+                return Result.SUCCESS();
             }
         } catch (Exception e) {
             log.error("更新专题评论表：%s", e.getMessage(), e);
-            return new CommonResult().failed();
+            return Result.failed();
         }
-        return new CommonResult().failed();
+        return Result.failed();
     }
 
     @SysLog(MODULE = "cms", REMARK = "删除专题评论表")
     @ApiOperation("删除专题评论表")
     @GetMapping(value = "/delete/{id}")
     @PreAuthorize("hasAuthority('cms:CmsSubjectComment:delete')")
-    public Object deleteCmsSubjectComment(@ApiParam("专题评论表id") @PathVariable Long id) {
+    public Result deleteCmsSubjectComment(@ApiParam("专题评论表id") @PathVariable Long id) {
         try {
             if (ValidatorUtils.empty(id)) {
-                return new CommonResult().paramFailed("专题评论表id");
+                return Result.failed("专题评论表id");
             }
             if (ICmsSubjectCommentService.removeById(id)) {
-                return new CommonResult().success();
+                return Result.SUCCESS();
             }
         } catch (Exception e) {
             log.error("删除专题评论表：%s", e.getMessage(), e);
-            return new CommonResult().failed();
+            return Result.failed();
         }
-        return new CommonResult().failed();
+        return Result.failed();
     }
 
     @SysLog(MODULE = "cms", REMARK = "给专题评论表分配专题评论表")
     @ApiOperation("查询专题评论表明细")
     @GetMapping(value = "/{id}")
     @PreAuthorize("hasAuthority('cms:CmsSubjectComment:read')")
-    public Object getCmsSubjectCommentById(@ApiParam("专题评论表id") @PathVariable Long id) {
+    public Result getCmsSubjectCommentById(@ApiParam("专题评论表id") @PathVariable Long id) {
         try {
             if (ValidatorUtils.empty(id)) {
-                return new CommonResult().paramFailed("专题评论表id");
+                return Result.failed("专题评论表id");
             }
             CmsSubjectComment coupon = ICmsSubjectCommentService.getById(id);
-            return new CommonResult().success(coupon);
+            return Result.SUCCESS(coupon);
         } catch (Exception e) {
             log.error("查询专题评论表明细：%s", e.getMessage(), e);
-            return new CommonResult().failed();
+            return Result.failed();
         }
 
     }
@@ -126,12 +127,12 @@ public class CmsSubjectCommentController {
     @ResponseBody
     @SysLog(MODULE = "pms", REMARK = "批量删除专题评论表")
     @PreAuthorize("hasAuthority('cms:CmsSubjectComment:delete')")
-    public Object deleteBatch(@RequestParam("ids") List<Long> ids) {
+    public Result deleteBatch(@RequestParam("ids") List<Long> ids) {
         boolean count = ICmsSubjectCommentService.removeByIds(ids);
         if (count) {
-            return new CommonResult().success(count);
+            return Result.SUCCESS(count,"删除成功");
         } else {
-            return new CommonResult().failed();
+            return Result.failed();
         }
     }
 

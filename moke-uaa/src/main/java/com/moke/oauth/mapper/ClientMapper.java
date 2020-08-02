@@ -11,7 +11,7 @@ import org.apache.ibatis.annotations.Param;
 import com.moke.oauth.model.Client;
 
 /**
- * @author mall
+ * @author
  */
 @Mapper
 public interface ClientMapper extends SuperMapper<Client> {

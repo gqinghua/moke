@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 
 /**
- * @author mall
+ * @author
  */
 @Slf4j
 @Service

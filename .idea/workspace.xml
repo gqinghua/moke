@@ -1,50 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a64d53b1-3b03-415b-92af-234707b5ce7c" name="Default Changelist" comment="2020/7/18日 10:28  添加jar包,无重大修改">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_anno_2_5_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_anno_api_2_5_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_autoconfigure_2_5_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_core_2_5_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_redis_2_5_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_starter_redis_2_5_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_4_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mvel_mvel2_2_4_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moke-business/user-center/Dockerfile" afterDir="false" />
+    <list default="true" id="a64d53b1-3b03-415b-92af-234707b5ce7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/client/SentinelApiClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_api_gateway_adapter_common_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_api_gateway_adapter_common_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_nacos_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_nacos_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_web_servlet_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_web_servlet_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_8_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_21_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_28_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/cms-center.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/cms-center.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/CmsCenterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/CmsCenterApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/AuthCmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/AuthCmsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsEmployInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsEmployInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsHelpCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsHelpCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsHelpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsHelpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsMemberReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsMemberReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsPrefrenceAreaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsPrefrenceAreaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/resources/application.ymlsss" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-commons/moke-common-spring-boot-starter/src/main/java/com/moke/util/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-commons/moke-common-spring-boot-starter/src/main/java/com/moke/util/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-commons/moke-swagger2-spring-boot-starter/src/main/java/com/moke/common/swagger2/Swagger2Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-commons/moke-swagger2-spring-boot-starter/src/main/java/com/moke/common/swagger2/Swagger2Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-commons/moke-swagger2-spring-boot-starter/src/main/java/com/moke/common/swagger2/SwaggerAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-commons/moke-swagger2-spring-boot-starter/src/main/java/com/moke/common/swagger2/SwaggerAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-commons/moke-swagger2-spring-boot-starter/src/main/java/com/moke/common/swagger2/SwaggerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-commons/moke-swagger2-spring-boot-starter/src/main/java/com/moke/common/swagger2/SwaggerProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-life/moke-Dynamic/moke-Dynamic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-life/moke-Dynamic/moke-Dynamic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-life/moke-GrassClub/moke-GrassClub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-life/moke-GrassClub/moke-GrassClub.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-life/moke-charity/moke-charity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-life/moke-charity/moke-charity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-life/moke-live/moke-live.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-life/moke-live/moke-live.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/config/PayCommonProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/config/PayCommonProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/controller/PayChannelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/controller/PayChannelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/controller/PayGoodsOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/controller/PayGoodsOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/controller/PayNotifyRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/controller/PayNotifyRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/controller/PayRefundOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/controller/PayRefundOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/controller/PayTradeOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-pay/src/main/java/com/moke/pay/controller/PayTradeOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsSubjectCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsSubjectCommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsSubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsSubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicCommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/NotAuthCmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/NotAuthCmsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/SmsHomeRecommendSubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/SmsHomeRecommendSubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/file-center/src/main/resources/application.ymls" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/file-center/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/filter/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/filter/ValidateCodeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/handler/OauthLogoutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/handler/OauthLogoutHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/mapper/ClientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/mapper/ClientMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/mobile/member/MobileCodememberAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/mobile/member/MobileCodememberAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/RedisAuthorizationCodeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/RedisAuthorizationCodeServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/RedisClientDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/RedisClientDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/UserDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/ValidateCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/ValidateCodeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/sentinel-dashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/sentinel-dashboard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/client/SentinelApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/client/SentinelApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/gateway/GatewayFlowRuleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/gateway/GatewayFlowRuleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/main/webapp/resources/app/views/dialog/flow-rule-dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/main/webapp/resources/app/views/dialog/flow-rule-dialog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/main/webapp/resources/app/views/dialog/gateway/flow-rule-dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/main/webapp/resources/app/views/dialog/gateway/flow-rule-dialog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/FlowRuleZookeeperProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/FlowRuleZookeeperProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -83,6 +102,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study/j-im" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -93,6 +113,11 @@
     <property name="project.structure.proportion" value="0.15384616" />
     <property name="project.structure.side.proportion" value="0.369515" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\moke" />
+    </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
@@ -115,20 +140,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.user-center/Dockerfile">
-    <configuration name="MyGithub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geccocrawler.gecco.demo.MyGithub" />
-      <module name="moke-magic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geccocrawler.gecco.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.DashboardApplication">
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.central.account.AccountServiceApplication" />
@@ -391,7 +403,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MyGithub" />
       <item itemvalue="Docker.user-center/Dockerfile" />
       <item itemvalue="Spring Boot.AccountServiceApplication" />
       <item itemvalue="Spring Boot.BusinessServiceApplication" />
@@ -433,7 +444,6 @@
       <list>
         <item itemvalue="Spring Boot.UaaServerApp" />
         <item itemvalue="Docker.user-center/Dockerfile" />
-        <item itemvalue="Application.MyGithub" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +522,41 @@
       <workItem from="1595662927306" duration="4664000" />
       <workItem from="1595676028754" duration="206000" />
       <workItem from="1595679899651" duration="208000" />
-      <workItem from="1595769867426" duration="2490000" />
+      <workItem from="1595769867426" duration="3072000" />
+      <workItem from="1595810559737" duration="2457000" />
+      <workItem from="1595815658743" duration="186000" />
+      <workItem from="1595815873646" duration="8000" />
+      <workItem from="1595816225096" duration="56000" />
+      <workItem from="1595818665167" duration="32000" />
+      <workItem from="1595833736903" duration="1102000" />
+      <workItem from="1595841311276" duration="2415000" />
+      <workItem from="1595849769416" duration="10000" />
+      <workItem from="1595849820795" duration="851000" />
+      <workItem from="1595897083326" duration="1469000" />
+      <workItem from="1595902772551" duration="742000" />
+      <workItem from="1595936234646" duration="176000" />
+      <workItem from="1595947278670" duration="1863000" />
+      <workItem from="1595949462420" duration="693000" />
+      <workItem from="1595982529865" duration="2184000" />
+      <workItem from="1596003332418" duration="620000" />
+      <workItem from="1596017049317" duration="966000" />
+      <workItem from="1596076132667" duration="603000" />
+      <workItem from="1596078025811" duration="2519000" />
+      <workItem from="1596094010784" duration="1012000" />
+      <workItem from="1596095092224" duration="116000" />
+      <workItem from="1596102024399" duration="19000" />
+      <workItem from="1596107284592" duration="332000" />
+      <workItem from="1596108513317" duration="26000" />
+      <workItem from="1596177283609" duration="322000" />
+      <workItem from="1596177875896" duration="405000" />
+      <workItem from="1596181527133" duration="289000" />
+      <workItem from="1596185394313" duration="2049000" />
+      <workItem from="1596205446382" duration="2624000" />
+      <workItem from="1596208373678" duration="9000" />
+      <workItem from="1596241815345" duration="1000000" />
+      <workItem from="1596245479774" duration="635000" />
+      <workItem from="1596247750062" duration="192000" />
+      <workItem from="1596377778831" duration="1682000" />
     </task>
     <task id="LOCAL-00001" summary="2020/7/15日 10:28  重新开始项目  项目回滚.">
       <created>1594868991119</created>
@@ -563,7 +607,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595066328172</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2020/7/26日 22:07   修改cms工程下的缓存,和返回值的修改">
+      <created>1595772529799</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595772529799</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2020/7/28日 10:26   修改commone guoqinghua">
+      <created>1595903289142</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595903289142</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2020/7/28">
+      <created>1595903501197</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595903501197</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +640,10 @@
     <MESSAGE value="2020/7/18日 10:28  哎" />
     <MESSAGE value="2020/7/18日 10:28  修改了一些注释" />
     <MESSAGE value="2020/7/18日 10:28  添加jar包,无重大修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/7/18日 10:28  添加jar包,无重大修改" />
+    <MESSAGE value="2020/7/26日 22:07   修改cms工程下的缓存,和返回值的修改" />
+    <MESSAGE value="2020/7/28日 10:26   修改commone guoqinghua" />
+    <MESSAGE value="2020/7/28" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/7/28" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Inspections" timestamp="1595430617042">
@@ -590,10 +658,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1595066043497" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595669343819">
+    <state x="300" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595949908379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595669343819" />
+    <state x="300" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595949908379" />
     <state x="430" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595066232896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -606,74 +674,86 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="0" key="#user-center/Dockerfile/0.0.1536.824@0.0.1536.824" timestamp="1595680042231" />
-    <state x="199" y="2" key="CommitChangelistDialog2" timestamp="1595772418581">
+    <state x="48" y="2" key="CommitChangelistDialog2" timestamp="1596379509869">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="199" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595772418581" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595431370992">
+    <state x="48" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596379509869" />
+    <state x="134" y="64" key="DiffContextDialog" timestamp="1595772434974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595431370992" />
-    <state width="1148" height="463" key="GridCell.Tab.0.bottom" timestamp="1595771690609">
+    <state x="134" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595772434974" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596207933486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595771690609" />
-    <state width="1148" height="463" key="GridCell.Tab.0.center" timestamp="1595771690608">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596207933486" />
+    <state width="1493" height="391" key="GridCell.Tab.0.bottom" timestamp="1596003161834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595771690608" />
-    <state width="1148" height="463" key="GridCell.Tab.0.left" timestamp="1595771690608">
+    <state width="1493" height="391" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596003161834" />
+    <state width="1493" height="391" key="GridCell.Tab.0.center" timestamp="1596003161834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595771690608" />
-    <state width="1148" height="463" key="GridCell.Tab.0.right" timestamp="1595771690608">
+    <state width="1493" height="391" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596003161834" />
+    <state width="1493" height="391" key="GridCell.Tab.0.left" timestamp="1596003161833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595771690608" />
-    <state width="1148" height="463" key="GridCell.Tab.1.bottom" timestamp="1595771690610">
+    <state width="1493" height="391" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596003161833" />
+    <state width="1493" height="391" key="GridCell.Tab.0.right" timestamp="1596003161834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595771690610" />
-    <state width="1148" height="463" key="GridCell.Tab.1.center" timestamp="1595771690609">
+    <state width="1493" height="391" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596003161834" />
+    <state width="1148" height="463" key="GridCell.Tab.1.bottom" timestamp="1595950176165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595771690609" />
-    <state width="1148" height="463" key="GridCell.Tab.1.left" timestamp="1595771690609">
+    <state width="1148" height="463" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595950176165" />
+    <state width="1148" height="463" key="GridCell.Tab.1.center" timestamp="1595950176164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595771690609" />
-    <state width="1148" height="463" key="GridCell.Tab.1.right" timestamp="1595771690610">
+    <state width="1148" height="463" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595950176164" />
+    <state width="1148" height="463" key="GridCell.Tab.1.left" timestamp="1595950176164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595771690610" />
-    <state width="1148" height="463" key="GridCell.Tab.2.bottom" timestamp="1595771690610">
+    <state width="1148" height="463" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595950176164" />
+    <state width="1148" height="463" key="GridCell.Tab.1.right" timestamp="1595950176164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595771690610" />
-    <state width="1148" height="463" key="GridCell.Tab.2.center" timestamp="1595771690610">
+    <state width="1148" height="463" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595950176164" />
+    <state width="1148" height="463" key="GridCell.Tab.2.bottom" timestamp="1595950176165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1595771690610" />
-    <state width="1148" height="463" key="GridCell.Tab.2.left" timestamp="1595771690610">
+    <state width="1148" height="463" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595950176165" />
+    <state width="1148" height="463" key="GridCell.Tab.2.center" timestamp="1595950176165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1595771690610" />
-    <state width="1148" height="463" key="GridCell.Tab.2.right" timestamp="1595771690610">
+    <state width="1148" height="463" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1595950176165" />
+    <state width="1148" height="463" key="GridCell.Tab.2.left" timestamp="1595950176165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1595771690610" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1595669493949">
+    <state width="1148" height="463" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1595950176165" />
+    <state width="1148" height="463" key="GridCell.Tab.2.right" timestamp="1595950176165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595669493949" />
+    <state width="1148" height="463" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1595950176165" />
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1595841471271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1595841471271" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1595814301074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595814301074" />
     <state x="536" y="127" key="VCS.ChangeListViewerDialog" timestamp="1594909794554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="127" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1594909794554" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595066337458">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595903507229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595066337458" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595903507229" />
+    <state x="609" y="100" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1595841442427">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="609" y="100" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1595841442427" />
     <state x="201" y="144" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1594910722465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -682,13 +762,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595066125381" />
-    <state x="447" y="145" width="789" height="534" key="find.popup" timestamp="1595430330309">
+    <state x="447" y="145" width="817" height="534" key="find.popup" timestamp="1596189146139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="145" width="789" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1595430330309" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595772243866">
+    <state x="447" y="145" width="817" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596189146139" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595834288581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595772243866" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595834288581" />
   </component>
 </project>
