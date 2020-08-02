@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import javax.sound.midi.Sequence;
+import java.util.UUID;
+
 /**
  * @program: sw
  * @ClassName TestController
@@ -33,5 +36,6 @@ public class TestController {
     public String feign(@PathVariable String str) {
         return echoService.echo(str);
     }
+
 
 }

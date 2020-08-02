@@ -244,7 +244,7 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-freemarker:2.0.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.28" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.0.12.RELEASE" level="project" />
-    <orderEntry type="module" module-name="moke-sequence-spring-boot-starter" />
+    <orderEntry type="library" name="Maven: com.moke:moke-sequence-spring-boot-starter:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: redis.clients:jedis:2.9.1" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-okhttp:9.7.0" level="project" />
