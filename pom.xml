@@ -478,6 +478,8 @@
         <module>moke-search</module>
         <!--        支付-->
         <module>moke-pay</module>
+<!--        百度分布式id-->
+        <module>uid-generator</module>
 
     </modules>
 </project>
