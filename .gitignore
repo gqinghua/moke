@@ -1,6 +1,5 @@
 # Compiled class file
 *.class
-.idea
 
 # Log file
 *.log
@@ -17,6 +16,7 @@ moke.iml
 .classpath
 .project
 /.idea/
+*.iml
 
 
 # Package Files #
