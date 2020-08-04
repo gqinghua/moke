@@ -23,5 +23,6 @@
         <module>moke-demo01</module>
         <module>nacos-service-consumer</module>
         <module>nacos-service-provider</module>
+        <module>java-spring-boot-uid-generator-baidu</module>
     </modules>
 </project>
