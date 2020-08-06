@@ -1,6 +1,6 @@
-package com.moke.moke.Mapper;
+package com.moke.theme.Mapper;
 
-import com.moke.moke.entity.LifeThemeEntity;
+import com.moke.theme.entity.LifeThemeEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

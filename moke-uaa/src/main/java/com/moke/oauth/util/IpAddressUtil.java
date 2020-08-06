@@ -9,7 +9,7 @@ import java.net.UnknownHostException;
 
 /**
  * IP地址工具类定义
- * @author yang.liu
+ * @author
  */
 public class IpAddressUtil {
 	public static String getIpAddr(HttpServletRequest request){

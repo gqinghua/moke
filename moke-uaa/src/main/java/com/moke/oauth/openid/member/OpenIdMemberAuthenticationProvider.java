@@ -7,7 +7,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 
 /**
- * @author mall
+ * @author
  */
 public class OpenIdMemberAuthenticationProvider implements AuthenticationProvider {
 

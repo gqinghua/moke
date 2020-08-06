@@ -1,4 +1,4 @@
-package com.moke.moke.entity;
+package com.moke.theme.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

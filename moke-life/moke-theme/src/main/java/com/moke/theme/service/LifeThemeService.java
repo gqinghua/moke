@@ -1,9 +1,9 @@
-package com.moke.moke.service;
+package com.moke.theme.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.moke.common.utils.CommonResult;
 
-import com.moke.moke.entity.LifeThemeEntity;
+import com.moke.theme.entity.LifeThemeEntity;
 import org.springframework.web.bind.annotation.RequestParam;
 
 

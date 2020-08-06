@@ -1,7 +1,7 @@
-package com.moke.moke.service.impl;
+package com.moke.theme.service.impl;
 
 import com.moke.common.utils.CommonResult;
-import com.moke.moke.Mapper.LifeThemeMapper;
+import com.moke.theme.Mapper.LifeThemeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -10,8 +10,8 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 
-import com.moke.moke.entity.LifeThemeEntity;
-import com.moke.moke.service.LifeThemeService;
+import com.moke.theme.entity.LifeThemeEntity;
+import com.moke.theme.service.LifeThemeService;
 
 
 @Service

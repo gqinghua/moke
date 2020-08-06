@@ -1,4 +1,4 @@
-package com.moke.moke;
+package com.moke.theme;
 
 import com.moke.common.annotation.EnableLoginArgResolver;
 import org.springframework.boot.SpringApplication;
@@ -14,9 +14,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 //@EnableTransactionManagement
 @SpringBootApplication
-public class themeApp {
+public class ThemeApp {
     public static void main(String[] args) {
-        SpringApplication.run(themeApp.class, args);
+        SpringApplication.run(ThemeApp.class, args);
     }
 
 

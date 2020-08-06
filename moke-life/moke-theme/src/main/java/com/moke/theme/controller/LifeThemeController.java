@@ -1,8 +1,8 @@
-package com.moke.moke.controller;
+package com.moke.theme.controller;
 
 import com.moke.common.utils.CommonResult;
-import com.moke.moke.entity.LifeThemeEntity;
-import com.moke.moke.service.LifeThemeService;
+import com.moke.theme.entity.LifeThemeEntity;
+import com.moke.theme.service.LifeThemeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
