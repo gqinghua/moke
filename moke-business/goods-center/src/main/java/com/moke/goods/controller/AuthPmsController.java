@@ -11,6 +11,7 @@ import com.moke.common.utils.CommonResult;
 import com.moke.goods.mapper.PmsProductCategoryMapper;
 import com.moke.goods.mapper.PmsProductMapper;
 import com.moke.goods.service.*;
+import com.moke.util.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,8 +24,8 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Auther: shenzhuan
- * @Date: 2019/4/2 15:02
+ * @Auther:
+ * @Date:
  * @Description:
  */
 @RestController
@@ -73,7 +74,7 @@ public class AuthPmsController {
     @IgnoreAuth
     @ApiOperation(value = "查询用户浏览记录列表")
     @GetMapping(value = "/viewList")
-    public Object viewList(@RequestParam Long memberId,
+    public Result viewList(@RequestParam Long memberId,
                            @RequestParam(value = "pageSize", required = false, defaultValue = "10") Integer pageSize,
                            @RequestParam(value = "pageNum", required = false, defaultValue = "1") Integer pageNum) {
         String key = String.format(RedisToolsConstant.GOODSHISTORY, memberId);
@@ -91,7 +92,7 @@ public class AuthPmsController {
             map.put("pageCount",(pageCount%pageSize == 0 ? pageCount/pageSize : pageCount/pageSize+1));
         }
 
-        return new CommonResult().success(map);
+        return Result.SUCCESS(map);
     }
 
 

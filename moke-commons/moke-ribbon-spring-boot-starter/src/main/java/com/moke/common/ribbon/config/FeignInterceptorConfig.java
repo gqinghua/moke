@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * feign拦截器
  *
- * @author mall
+ * @author
  */
 public class FeignInterceptorConfig {
 

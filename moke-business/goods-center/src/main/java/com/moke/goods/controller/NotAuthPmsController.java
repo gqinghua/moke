@@ -27,6 +27,7 @@ import com.moke.goods.vo.ConsultTypeCount;
 import com.moke.goods.vo.PromotionProduct;
 import com.moke.sentinel.config.ConstansValue;
 import com.moke.util.DateUtils;
+import com.moke.util.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -40,7 +41,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * @Auther: shenzhuan
+ * @Auther:
  * @Date: 2019/4/2 15:02
  * @Description:
  */
@@ -89,17 +90,17 @@ public class NotAuthPmsController {
     @ApiOperation("首页内容页信息展示")
     @SysLog(MODULE = "home", REMARK = "首页内容页信息展示")
     @RequestMapping(value = "/content", method = RequestMethod.GET)
-    public Object content() {
+    public Result content() {
         // List<UmsMember> log =  memberService.list(new QueryWrapper<UmsMember>().between("create_time","2018-03-03 00:00:00","2018-09-03 23:59:59"));
         HomeContentResult contentResult = pmsProductService.content();
-        return new CommonResult().success(contentResult);
+        return Result.SUCCESS(contentResult);
     }
 
     @SysLog(MODULE = "pms", REMARK = "查询商品详情信息")
     @IgnoreAuth
     @GetMapping(value = "/goods/detail")
     @ApiOperation(value = "查询商品详情信息")
-    public Object queryProductDetail(@RequestParam(value = "id", required = false) Long id,
+    public Result queryProductDetail(@RequestParam(value = "id", required = false) Long id,
                                      @RequestParam(value = "memberId", required = false) Long memberId) {
         GoodsDetailResult param = null;
         try {
@@ -126,21 +127,21 @@ public class NotAuthPmsController {
         }
 
         map.put("goods", param);
-        return new CommonResult().success(map);
+        return Result.SUCCESS(map);
     }
     @SysLog(MODULE = "pms", REMARK = "根据条件查询所有品牌表列表")
     @ApiOperation("根据条件查询所有品牌表列表")
     @GetMapping(value = "/brand/list")
-    public Object getPmsBrandByPage(PmsBrand entity,
+    public Result getPmsBrandByPage(PmsBrand entity,
                                     @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
                                     @RequestParam(value = "pageSize", defaultValue = "10") Integer pageSize
     ) {
         try {
-            return new CommonResult().success(IPmsBrandService.page(new Page<PmsBrand>(pageNum, pageSize), new QueryWrapper<>(entity)));
+            return Result.SUCCESS(IPmsBrandService.page(new Page<PmsBrand>(pageNum, pageSize), new QueryWrapper<>(entity)));
         } catch (Exception e) {
             log.error("根据条件查询所有品牌表列表：%s", e.getMessage(), e);
         }
-        return new CommonResult().failed();
+        return Result.failed();
     }
     @IgnoreAuth
     @ApiOperation("获取某个商品的评价")
