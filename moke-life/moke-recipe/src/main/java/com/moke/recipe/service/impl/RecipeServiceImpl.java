@@ -12,11 +12,13 @@ import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
+import javax.annotation.Resource;
+
 
 @Service
 public class RecipeServiceImpl extends ServiceImpl <RecipeMapper, RecipeEntity> implements RecipeService {
 
-    @Autowired
+    @Resource
     private RecipeMapper recipeDao;
 
     @Override
@@ -67,8 +69,8 @@ public class RecipeServiceImpl extends ServiceImpl <RecipeMapper, RecipeEntity> 
         QueryWrapper q = new QueryWrapper();
 //        q.like("name", entity.getName());
         q.orderByDesc("create_date");
-
-        IPage <RecipeEntity> recipeEntityIPage = recipeDao.selectPage(new Page <RecipeEntity>(pageNum, pageSize), q);
+        Page<RecipeEntity> recipeEntityPage = new Page<>(pageNum, pageSize);
+        IPage <RecipeEntity> recipeEntityIPage = recipeDao.selectPage(recipeEntityPage, q);
 
         return new CommonResult().success(recipeEntityIPage, "查询成功");
     }
@@ -78,5 +80,14 @@ public class RecipeServiceImpl extends ServiceImpl <RecipeMapper, RecipeEntity> 
         RecipeEntity recipeEntity = recipeDao.selectById(id);
 
         return new CommonResult().success(recipeEntity, "修改成功");
+    }
+
+    @Override
+    public CommonResult selectone(Long id) {
+//        QueryWrapper q = new QueryWrapper();
+//        RecipeEntity recipeEntity = new RecipeEntity();
+//        q.getEntity(recipeEntity);
+//        recipeDao.selectOne(RecipeEntity);
+        return null;
     }
 }

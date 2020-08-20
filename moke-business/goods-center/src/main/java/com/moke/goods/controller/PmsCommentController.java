@@ -22,7 +22,7 @@ import java.util.List;
  * 商品评价表
  * </p>
  *
- * @author zscat
+ * @author
  * @since 2019-04-19
  */
 @Slf4j

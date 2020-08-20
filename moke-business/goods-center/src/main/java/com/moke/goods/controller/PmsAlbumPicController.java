@@ -22,8 +22,8 @@ import java.util.List;
  * 画册图片表
  * </p>
  *
- * @author zscat
- * @since 2019-04-19
+ * @author
+ * @since
  */
 @Slf4j
 @RestController

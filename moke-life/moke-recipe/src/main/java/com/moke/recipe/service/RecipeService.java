@@ -29,5 +29,8 @@ public interface RecipeService extends IService<RecipeEntity> {
     CommonResult list(RecipeEntity entity, Integer pageNum, Integer pageSize);
 
     CommonResult selectById(Long id);
+
+
+    CommonResult selectone(Long id);
 }
 
