@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.moke.common.utils.CommonResult;
 import com.moke.recipe.Mapper.RecipeMapper;
+import com.moke.recipe.entity.RecipeDto;
 import com.moke.recipe.entity.RecipeEntity;
 import com.moke.recipe.service.RecipeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 
 @Service
@@ -89,5 +91,11 @@ public class RecipeServiceImpl extends ServiceImpl <RecipeMapper, RecipeEntity> 
 //        q.getEntity(recipeEntity);
 //        recipeDao.selectOne(RecipeEntity);
         return null;
+    }
+
+    @Override
+    public CommonResult selectByDate(RecipeDto recipeDto) {
+        RecipeEntity getbydate = recipeDao.getbydate(recipeDto);
+        return new CommonResult().success(getbydate, "查询成功");
     }
 }

@@ -1,5 +1,6 @@
 package com.moke.recipe.Mapper;
 
+import com.moke.recipe.entity.RecipeDto;
 import com.moke.recipe.entity.RecipeEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
@@ -17,5 +18,8 @@ import java.util.List;
 public interface RecipeMapper extends BaseMapper<RecipeEntity> {
 
     List<RecipeEntity> listRecipeEntity ();
+
+
+    RecipeEntity getbydate ( RecipeDto recipeDto);
 
 }
