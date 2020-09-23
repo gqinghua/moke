@@ -2,6 +2,7 @@ package com.moke.recipe.controller;
 
 
 import com.moke.common.utils.CommonResult;
+import com.moke.recipe.entity.RecipeDto;
 import com.moke.recipe.entity.RecipeEntity;
 import com.moke.recipe.service.RecipeService;
 import io.swagger.annotations.Api;
@@ -64,6 +65,13 @@ public class RecipeController {
     @GetMapping(value = "/selectById")
     public CommonResult selectById(Long id){
         CommonResult list = recipeService.selectById(id);
+        return list;
+    }
+
+    @ApiOperation("根据时间查询")
+    @PostMapping(value = "/selectByDate")
+    public CommonResult selectByDate(@RequestBody  RecipeDto recipeDto){
+        CommonResult list = recipeService.selectByDate(recipeDto);
         return list;
     }
 }

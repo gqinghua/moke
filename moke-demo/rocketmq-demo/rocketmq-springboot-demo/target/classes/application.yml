@@ -1,0 +1,15 @@
+# 开发环境配置
+server:
+  # 服务端口
+  port: 9005
+
+
+rocketmq:
+  name-server: 123.57.128.134:9876
+  producer:
+    group: my-group
+    send-message-timeout: 300000
+    compress-message-body-threshold: 4096
+    max-message-size: 4194304
+    retry-next-server: true
+    retry-times-when-send-failed: 2

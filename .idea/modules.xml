@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/moke-business/file-center/file-center.iml" filepath="$PROJECT_DIR$/moke-business/file-center/file-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-business/goods-center/goods-center.iml" filepath="$PROJECT_DIR$/moke-business/goods-center/goods-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-demo/im-client-demo/im-client-demo.iml" filepath="$PROJECT_DIR$/moke-demo/im-client-demo/im-client-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-demo/java-spring-boot-uid/java-spring-boot-uid.iml" filepath="$PROJECT_DIR$/moke-demo/java-spring-boot-uid/java-spring-boot-uid.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-job/job-admin/job-admin.iml" filepath="$PROJECT_DIR$/moke-job/job-admin/job-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-job/job-core/job-core.iml" filepath="$PROJECT_DIR$/moke-job/job-core/job-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-job/job-executor-samples/job-executor-samples.iml" filepath="$PROJECT_DIR$/moke-job/job-executor-samples/job-executor-samples.iml" />
@@ -37,13 +38,13 @@
       <module fileurl="file://$PROJECT_DIR$/moke-commons/moke-log-spring-boot-starter/moke-log-spring-boot-starter.iml" filepath="$PROJECT_DIR$/moke-commons/moke-log-spring-boot-starter/moke-log-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-life/moke-magic/moke-magic.iml" filepath="$PROJECT_DIR$/moke-life/moke-magic/moke-magic.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-monitor/moke-monitor.iml" filepath="$PROJECT_DIR$/moke-monitor/moke-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-life/moke-mybatis/moke-mybatis.iml" filepath="$PROJECT_DIR$/moke-life/moke-mybatis/moke-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-pay/moke-pay.iml" filepath="$PROJECT_DIR$/moke-pay/moke-pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-life/moke-recipe/moke-recipe.iml" filepath="$PROJECT_DIR$/moke-life/moke-recipe/moke-recipe.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-commons/moke-redis-spring-boot-starter/moke-redis-spring-boot-starter.iml" filepath="$PROJECT_DIR$/moke-commons/moke-redis-spring-boot-starter/moke-redis-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-commons/moke-ribbon-spring-boot-starter/moke-ribbon-spring-boot-starter.iml" filepath="$PROJECT_DIR$/moke-commons/moke-ribbon-spring-boot-starter/moke-ribbon-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-search/moke-search.iml" filepath="$PROJECT_DIR$/moke-search/moke-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-commons/moke-sentinel-spring-boot-starter/moke-sentinel-spring-boot-starter.iml" filepath="$PROJECT_DIR$/moke-commons/moke-sentinel-spring-boot-starter/moke-sentinel-spring-boot-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/moke-commons/moke-sequence-spring-boot-starter/moke-sequence-spring-boot-starter.iml" filepath="$PROJECT_DIR$/moke-commons/moke-sequence-spring-boot-starter/moke-sequence-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-commons/moke-swagger2-spring-boot-starter/moke-swagger2-spring-boot-starter.iml" filepath="$PROJECT_DIR$/moke-commons/moke-swagger2-spring-boot-starter/moke-swagger2-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-life/moke-theme/moke-theme.iml" filepath="$PROJECT_DIR$/moke-life/moke-theme/moke-theme.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-transaction/moke-transaction.iml" filepath="$PROJECT_DIR$/moke-transaction/moke-transaction.iml" />
@@ -75,6 +76,9 @@
       <module fileurl="file://$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-spring-service-b/txlcn-demo-spring-service-b.iml" filepath="$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-spring-service-b/txlcn-demo-spring-service-b.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-spring-service-c/txlcn-demo-spring-service-c.iml" filepath="$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-spring-service-c/txlcn-demo-spring-service-c.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-transaction/txlcn-tm/txlcn-tm.iml" filepath="$PROJECT_DIR$/moke-transaction/txlcn-tm/txlcn-tm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uid-generator/uid-generator.iml" filepath="$PROJECT_DIR$/uid-generator/uid-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-demo/java-spring-boot-uid/uid-generators/uid-generators.iml" filepath="$PROJECT_DIR$/moke-demo/java-spring-boot-uid/uid-generators/uid-generators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-demo/java-spring-boot-uid/uid-provider/uid-provider.iml" filepath="$PROJECT_DIR$/moke-demo/java-spring-boot-uid/uid-provider/uid-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-business/user-center/user-center.iml" filepath="$PROJECT_DIR$/moke-business/user-center/user-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-demo/sso-demo/web-sso/web-sso.iml" filepath="$PROJECT_DIR$/moke-demo/sso-demo/web-sso/web-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-gateway/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/moke-gateway/zuul-gateway/zuul-gateway.iml" />

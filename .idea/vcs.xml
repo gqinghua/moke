@@ -4,6 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/V-IM-Server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/moke-demo/java-spring-boot-uid" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/moke-im" vcs="Git" />
   </component>
 </project>

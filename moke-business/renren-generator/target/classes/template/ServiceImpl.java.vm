@@ -1,0 +1,68 @@
+package ${package}.${moduleName}.service.impl;
+
+import org.springframework.stereotype.Service;
+import java.util.Map;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import ${mainPath}.common.utils.PageUtils;
+import ${mainPath}.common.utils.Query;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+
+import ${package}.${moduleName}.dao.${className}Dao;
+import ${package}.${moduleName}.entity.${className}Entity;
+import ${package}.${moduleName}.service.${className}Service;
+
+
+@Service("${classname}Service")
+public class ${className}ServiceImpl extends ServiceImpl<${className}Dao, ${className}Entity> implements ${className}Service {
+    @Autowired
+    private ${className}Mapper ${classname}Mapper;
+
+    @Override
+    public CommonResult insert(${className}Entity ${classname}) {
+        int insert = ${classname}Mapper.insert(${classname});
+        if (insert == 1) {
+            return new CommonResult().success("修改成功");
+        }
+        return new CommonResult().failed("修改失败");
+    }
+
+    @Override
+    public CommonResult delect(Long id) {
+        int delect = ${classname}Mapper.deleteById(id);
+        if (delect == 1) {
+            return new CommonResult().success("删除成功");
+        }
+        return new CommonResult().failed("删除失败");
+    }
+
+    @Override
+    public CommonResult update(${className}Entity ${classname}) {
+        int update = ${classname}Mapper.updateById(${classname});
+        if (update == 1) {
+            return new CommonResult().success("修改成功");
+        }
+        return new CommonResult().failed("修改失败");
+    }
+
+    @Override
+    public CommonResult list(${className}Entity ${classname}, Integer pageNum, Integer pageSize) {
+
+        QueryWrapper q = new QueryWrapper();
+        q.like("name", entity.getName());
+        q.orderByDesc("create_date");
+
+        IPage <${className}Entity> recipeEntityIPage = ${classname}Mapper.selectPage(new Page <${className}Entity>(pageNum, pageSize), q);
+
+        return new CommonResult().success(recipeEntityIPage, "修改成功");
+    }
+
+
+    @Override
+    public CommonResult selectById(Long id) {
+            ${className}Entity ${classname} = ${classname}Mapper.selectById(id);
+
+        return new CommonResult().success(${classname}, "修改成功");
+    }
+}

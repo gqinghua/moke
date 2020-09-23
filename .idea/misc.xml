@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/moke-Square/pom.xml" />
         <option value="$PROJECT_DIR$/moke-commons/moke-gateway-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/moke-commons/moke-minio-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/moke-commons/moke-sequence-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/moke-config/pom.xml" />
         <option value="$PROJECT_DIR$/moke-demo/moke-quartz/pom.xml" />
         <option value="$PROJECT_DIR$/moke-demo/springboot-rocketmq/pom.xml" />
@@ -37,7 +38,7 @@
   <component name="ProjectResources">
     <resource url="http://code.alibabatech.com/schema/dubbo/dubbo.xsd" location="D:/maven/dubbo.xsd" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
 </project>

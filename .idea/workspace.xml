@@ -1,50 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a64d53b1-3b03-415b-92af-234707b5ce7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/client/SentinelApiClientTest.java" afterDir="false" />
+    <list default="true" id="a64d53b1-3b03-415b-92af-234707b5ce7c" name="Default Changelist" comment="2020/8/2 guoqinghua 修改cms代码,如果出现错误,可回滚代码">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_api_gateway_adapter_common_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_api_gateway_adapter_common_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_nacos_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_nacos_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_web_servlet_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_web_servlet_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_8_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_21_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_28_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_nacos_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_transmittable_thread_local_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jfinal_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_lukehutch_fast_classpath_scanner_2_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_okhttp_9_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_j_im_jim_common_2_6_0_v20190114_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_4_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_t_io_tio_core_2_4_0_v20180508_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_t_io_tio_utils_2_4_0_v20180508_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsSubjectCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsSubjectCommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsSubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsSubjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicCommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/CmsTopicMemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/NotAuthCmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/NotAuthCmsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/SmsHomeRecommendSubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/cms-center/src/main/java/com/moke/cms/controller/SmsHomeRecommendSubjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/file-center/src/main/resources/application.ymls" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/file-center/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/filter/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/filter/ValidateCodeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/handler/OauthLogoutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/handler/OauthLogoutHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/mapper/ClientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/mapper/ClientMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/mobile/member/MobileCodememberAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/mobile/member/MobileCodememberAuthenticationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/ClientServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/RedisAuthorizationCodeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/RedisAuthorizationCodeServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/RedisClientDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/RedisClientDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/UserDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/ValidateCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moke-uaa/src/main/java/com/moke/oauth/service/impl/ValidateCodeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/sentinel-dashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/sentinel-dashboard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/client/SentinelApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/client/SentinelApiClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/gateway/GatewayFlowRuleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/gateway/GatewayFlowRuleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/main/webapp/resources/app/views/dialog/flow-rule-dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/main/webapp/resources/app/views/dialog/flow-rule-dialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/main/webapp/resources/app/views/dialog/gateway/flow-rule-dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/main/webapp/resources/app/views/dialog/gateway/flow-rule-dialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/FlowRuleZookeeperProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/FlowRuleZookeeperProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-pay/moke-pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-pay/moke-pay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-transaction/txlcn-tm/txlcn-tm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-transaction/txlcn-tm/txlcn-tm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uid-generator/uid-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/uid-generator/uid-generator.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +41,31 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mallcloud@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mallcloud@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mallcloud@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ag_admin_v1: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -79,9 +81,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\maven_repository\maven_repository" />
-        <option name="mavenHome" value="D:/maven/apache-maven-3.5.2-bin/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\conf\settings.xml" />
+        <option name="localRepository" value="D:\maven\repertory" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -102,32 +104,37 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study/j-im" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15384616" />
     <property name="project.structure.side.proportion" value="0.369515" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\moke\moke-life\moke-mybatis\src\main\java" />
       <recent name="E:\projects\moke" />
+      <recent name="E:\projects\moke\moke-demo\nacos-service-consumer\src\main\java\com\moke\NacosConsumer" />
     </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
       <expand>
         <path>
-          <item name="Found 1056 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 886 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 1056 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="sentinel-dashboard" type="c588b436:RestServiceStructure$ProjectNode" />
+          <item name="Found 886 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="goods-center" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -140,7 +147,35 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DashboardApplication">
+  <component name="RunManager" selected="Spring Boot.CmsCenterApp">
+    <configuration name="ImServerDemoStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jim.server.demo.ImServerDemoStart" />
+      <module name="moke-im" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jim.server.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CachedUidGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uid-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baidu.fsg.uid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baidu.fsg.uid" />
+      <option name="MAIN_CLASS_NAME" value="com.baidu.fsg.uid.CachedUidGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.central.account.AccountServiceApplication" />
@@ -283,9 +318,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="uid-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.foxwho.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.foxwho.demo.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="nacos-service-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moke.NacosProvider.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="moke-recipe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moke.recipe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moke.recipe.RecipeApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -394,16 +455,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="user-center/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="moke-business/user-center/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Docker.user-center/Dockerfile" />
+      <item itemvalue="Application.ImServerDemoStart" />
+      <item itemvalue="JUnit.CachedUidGeneratorTest" />
       <item itemvalue="Spring Boot.AccountServiceApplication" />
       <item itemvalue="Spring Boot.BusinessServiceApplication" />
       <item itemvalue="Spring Boot.CmsCenterApp" />
@@ -439,11 +493,16 @@
       <item itemvalue="Spring Boot.UserCenterApp" />
       <item itemvalue="Spring Boot.WebSSOApplication" />
       <item itemvalue="Spring Boot.UaaServerApp" />
+      <item itemvalue="Spring Boot.ProviderApplication (1)" />
+      <item itemvalue="Spring Boot.RecipeApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RecipeApp" />
         <item itemvalue="Spring Boot.UaaServerApp" />
-        <item itemvalue="Docker.user-center/Dockerfile" />
+        <item itemvalue="Application.ImServerDemoStart" />
+        <item itemvalue="Spring Boot.ProviderApplication (1)" />
+        <item itemvalue="JUnit.CachedUidGeneratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +510,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.21516393" />
+          <option name="contentProportion" value="0.24248634" />
           <treeState>
             <expand>
               <path>
@@ -474,6 +533,9 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -556,7 +618,84 @@
       <workItem from="1596241815345" duration="1000000" />
       <workItem from="1596245479774" duration="635000" />
       <workItem from="1596247750062" duration="192000" />
-      <workItem from="1596377778831" duration="1682000" />
+      <workItem from="1596377778831" duration="6603000" />
+      <workItem from="1596415420886" duration="12000" />
+      <workItem from="1596440915359" duration="833000" />
+      <workItem from="1596449047939" duration="870000" />
+      <workItem from="1596505123472" duration="2168000" />
+      <workItem from="1596524963430" duration="646000" />
+      <workItem from="1596529391775" duration="3222000" />
+      <workItem from="1596533402730" duration="4841000" />
+      <workItem from="1596549585204" duration="2421000" />
+      <workItem from="1596555945399" duration="64000" />
+      <workItem from="1596588131052" duration="4644000" />
+      <workItem from="1596629721543" duration="6000" />
+      <workItem from="1596629789337" duration="2808000" />
+      <workItem from="1596695162738" duration="1228000" />
+      <workItem from="1596696966942" duration="2677000" />
+      <workItem from="1596706937951" duration="1778000" />
+      <workItem from="1596769019622" duration="2028000" />
+      <workItem from="1596820495648" duration="135000" />
+      <workItem from="1596820649729" duration="43000" />
+      <workItem from="1596896048207" duration="4138000" />
+      <workItem from="1596903277758" duration="293000" />
+      <workItem from="1596953229789" duration="2938000" />
+      <workItem from="1596968970363" duration="24000" />
+      <workItem from="1596983149475" duration="88000" />
+      <workItem from="1597020055643" duration="335000" />
+      <workItem from="1597020723918" duration="9000" />
+      <workItem from="1597127515212" duration="2043000" />
+      <workItem from="1597134276503" duration="2641000" />
+      <workItem from="1597152174368" duration="1568000" />
+      <workItem from="1597192513767" duration="1838000" />
+      <workItem from="1597195135398" duration="1656000" />
+      <workItem from="1597239585757" duration="933000" />
+      <workItem from="1597279363800" duration="4899000" />
+      <workItem from="1597370354541" duration="2460000" />
+      <workItem from="1597545601028" duration="2483000" />
+      <workItem from="1597584588992" duration="57000" />
+      <workItem from="1597584672068" duration="10000" />
+      <workItem from="1597584811210" duration="3000" />
+      <workItem from="1597586203148" duration="9000" />
+      <workItem from="1597588772562" duration="450000" />
+      <workItem from="1597592090152" duration="1054000" />
+      <workItem from="1597594750818" duration="1728000" />
+      <workItem from="1597634010966" duration="634000" />
+      <workItem from="1597718753448" duration="63000" />
+      <workItem from="1597718848824" duration="51000" />
+      <workItem from="1597905392883" duration="965000" />
+      <workItem from="1597906855374" duration="1379000" />
+      <workItem from="1597974173712" duration="208000" />
+      <workItem from="1597984840060" duration="701000" />
+      <workItem from="1597995542255" duration="1233000" />
+      <workItem from="1598238068402" duration="1784000" />
+      <workItem from="1598410921385" duration="643000" />
+      <workItem from="1598585157386" duration="1937000" />
+      <workItem from="1598839753819" duration="78000" />
+      <workItem from="1598845233165" duration="2544000" />
+      <workItem from="1598873192280" duration="745000" />
+      <workItem from="1598943606002" duration="748000" />
+      <workItem from="1598962275396" duration="862000" />
+      <workItem from="1599617928574" duration="3160000" />
+      <workItem from="1599634726458" duration="20000" />
+      <workItem from="1599836443352" duration="3716000" />
+      <workItem from="1599870952552" duration="4617000" />
+      <workItem from="1599914832469" duration="10000" />
+      <workItem from="1599914892724" duration="1468000" />
+      <workItem from="1599966353284" duration="1931000" />
+      <workItem from="1600273562495" duration="241000" />
+      <workItem from="1600273856264" duration="112000" />
+      <workItem from="1600273997948" duration="3000" />
+      <workItem from="1600394947373" duration="644000" />
+      <workItem from="1600444973495" duration="244000" />
+      <workItem from="1600746230724" duration="461000" />
+      <workItem from="1600845249336" duration="1576000" />
+      <workItem from="1600864084055" duration="1000" />
+      <workItem from="1600961146817" duration="679000" />
+      <workItem from="1601104698095" duration="1265000" />
+      <workItem from="1601106964188" duration="3153000" />
+      <workItem from="1601131856762" duration="8000" />
+      <workItem from="1601132188440" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="2020/7/15日 10:28  重新开始项目  项目回滚.">
       <created>1594868991119</created>
@@ -628,7 +767,133 @@
       <option name="project" value="LOCAL" />
       <updated>1595903501197</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2020/8/2 guoqinghua 修改cms代码,如果出现错误,可回滚代码">
+      <created>1596379771437</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596379771438</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2020/8/2 guoqinghua 删除发号器模块,感觉很鸡肋.因为我们在技术选型的时候对性能要求不高,如果能用uuid来解决的话我们会采用的,或者自研一个分布式id">
+      <created>1596383541940</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596383541941</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2020/8/3 guoqinghua">
+      <created>1596384310567</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1596384310567</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2020/8/3 guoqinghua">
+      <created>1596384435502</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596384435502</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2020/8/4 guoqinghua 加入百度分布式id">
+      <created>1596529714231</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1596529714231</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2020/8/4 guoqinghua 20:50  可以使用百度的uid了">
+      <created>1596545485614</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1596545485614</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2020/8/4 guoqinghua">
+      <created>1596550783047</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1596550783047</updated>
+    </task>
+    <task id="LOCAL-00018" summary="2020/8/4 guoqinghua">
+      <created>1596550846972</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1596550846972</updated>
+    </task>
+    <task id="LOCAL-00019" summary="2020/8/4 guoqinghua">
+      <created>1596551804735</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1596551804735</updated>
+    </task>
+    <task id="LOCAL-00020" summary="2020/8/5  guoqinghua  准备修改定时任务">
+      <created>1596591164541</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1596591164541</updated>
+    </task>
+    <task id="LOCAL-00021" summary="2020/8/5">
+      <created>1596591671537</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1596591671537</updated>
+    </task>
+    <task id="LOCAL-00022" summary="2020/8/6/14/31   guoqinghua 提交代码,还是准备使用zull2.0,异步使用,netty已经改造了,无需担心性能问题">
+      <created>1596695579486</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1596695579486</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2020/8/6/15/13  GUOQINGHUA  更新代码,">
+      <created>1596698048110</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1596698048110</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2020/8/6/15/15 guoqinghua">
+      <created>1596698122987</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1596698122987</updated>
+    </task>
+    <task id="LOCAL-00025" summary="2020/8/9 0:15">
+      <created>1596903359148</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1596903359148</updated>
+    </task>
+    <task id="LOCAL-00026" summary="2020/8/20 guoqinghua">
+      <created>1597905836912</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1597905836912</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2020/8/28 11:35 guoqinghua 更改">
+      <created>1598585753706</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1598585753706</updated>
+    </task>
+    <task id="LOCAL-00028" summary="2020/9/23 guoqinghua 修改cms代码,如果出现错误,可回滚代码">
+      <created>1600857017464</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1600857017464</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,7 +908,22 @@
     <MESSAGE value="2020/7/26日 22:07   修改cms工程下的缓存,和返回值的修改" />
     <MESSAGE value="2020/7/28日 10:26   修改commone guoqinghua" />
     <MESSAGE value="2020/7/28" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/7/28" />
+    <MESSAGE value="2020/8/2 guoqinghua 修改cms代码,如果出现错误,可回滚代码" />
+    <MESSAGE value="2020/8/2 guoqinghua 删除发号器模块,感觉很鸡肋.因为我们在技术选型的时候对性能要求不高,如果能用uuid来解决的话我们会采用的,或者自研一个分布式id" />
+    <MESSAGE value="2020/8/3 guoqinghua" />
+    <MESSAGE value="2020/8/4 guoqinghua 加入百度分布式id" />
+    <MESSAGE value="2020/8/4 guoqinghua 20:50  可以使用百度的uid了" />
+    <MESSAGE value="2020/8/4 guoqinghua" />
+    <MESSAGE value="2020/8/5  guoqinghua  准备修改定时任务" />
+    <MESSAGE value="2020/8/5" />
+    <MESSAGE value="2020/8/6/14/31   guoqinghua 提交代码,还是准备使用zull2.0,异步使用,netty已经改造了,无需担心性能问题" />
+    <MESSAGE value="2020/8/6/15/13  GUOQINGHUA  更新代码," />
+    <MESSAGE value="2020/8/6/15/15 guoqinghua" />
+    <MESSAGE value="2020/8/9 0:15" />
+    <MESSAGE value="2020/8/20 guoqinghua" />
+    <MESSAGE value="2020/8/28 11:35 guoqinghua 更改" />
+    <MESSAGE value="2020/9/23 guoqinghua 修改cms代码,如果出现错误,可回滚代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/9/23 guoqinghua 修改cms代码,如果出现错误,可回滚代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Inspections" timestamp="1595430617042">
@@ -654,18 +934,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594869257241" />
-    <state x="361" y="71" key="#Project_Structure" timestamp="1595066043497">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1597718766447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1595066043497" />
-    <state x="300" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595949908379">
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1597718766447" />
+    <state x="300" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600273632032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="300" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595949908379" />
-    <state x="430" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595066232896">
+    <state x="300" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600273632032" />
+    <state x="430" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600845366833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1595066232896" />
+    <state x="430" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600845366833" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1599838146590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599838146590" />
     <state x="378" y="271" width="779" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595066004950">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -674,82 +958,91 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="0" key="#user-center/Dockerfile/0.0.1536.824@0.0.1536.824" timestamp="1595680042231" />
-    <state x="48" y="2" key="CommitChangelistDialog2" timestamp="1596379509869">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1601208263246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="48" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596379509869" />
-    <state x="134" y="64" key="DiffContextDialog" timestamp="1595772434974">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601208263246" />
+    <state x="134" y="64" key="DiffContextDialog" timestamp="1598585667438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="134" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595772434974" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596207933486">
+    <state x="134" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1598585667438" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601125190887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596207933486" />
-    <state width="1493" height="391" key="GridCell.Tab.0.bottom" timestamp="1596003161834">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601125190887" />
+    <state width="1108" height="462" key="GridCell.Tab.0.bottom" timestamp="1600445238552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="391" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596003161834" />
-    <state width="1493" height="391" key="GridCell.Tab.0.center" timestamp="1596003161834">
+    <state width="1108" height="462" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600445238552" />
+    <state width="1435" height="567" key="GridCell.Tab.0.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970512" />
+    <state width="1108" height="462" key="GridCell.Tab.0.center" timestamp="1600445238552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="391" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596003161834" />
-    <state width="1493" height="391" key="GridCell.Tab.0.left" timestamp="1596003161833">
+    <state width="1108" height="462" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600445238552" />
+    <state width="1435" height="567" key="GridCell.Tab.0.center/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970512" />
+    <state width="1108" height="462" key="GridCell.Tab.0.left" timestamp="1600445238552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="391" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596003161833" />
-    <state width="1493" height="391" key="GridCell.Tab.0.right" timestamp="1596003161834">
+    <state width="1108" height="462" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600445238552" />
+    <state width="1435" height="567" key="GridCell.Tab.0.left/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970512" />
+    <state width="1108" height="462" key="GridCell.Tab.0.right" timestamp="1600445238552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="391" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596003161834" />
-    <state width="1148" height="463" key="GridCell.Tab.1.bottom" timestamp="1595950176165">
+    <state width="1108" height="462" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600445238552" />
+    <state width="1435" height="567" key="GridCell.Tab.0.right/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970512" />
+    <state width="1108" height="462" key="GridCell.Tab.1.bottom" timestamp="1600445238552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595950176165" />
-    <state width="1148" height="463" key="GridCell.Tab.1.center" timestamp="1595950176164">
+    <state width="1108" height="462" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600445238552" />
+    <state width="1435" height="567" key="GridCell.Tab.1.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970513" />
+    <state width="1108" height="462" key="GridCell.Tab.1.center" timestamp="1600445238552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595950176164" />
-    <state width="1148" height="463" key="GridCell.Tab.1.left" timestamp="1595950176164">
+    <state width="1108" height="462" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600445238552" />
+    <state width="1435" height="567" key="GridCell.Tab.1.center/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970513" />
+    <state width="1108" height="462" key="GridCell.Tab.1.left" timestamp="1600445238552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595950176164" />
-    <state width="1148" height="463" key="GridCell.Tab.1.right" timestamp="1595950176164">
+    <state width="1108" height="462" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600445238552" />
+    <state width="1435" height="567" key="GridCell.Tab.1.left/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970512" />
+    <state width="1108" height="462" key="GridCell.Tab.1.right" timestamp="1600445238552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595950176164" />
-    <state width="1148" height="463" key="GridCell.Tab.2.bottom" timestamp="1595950176165">
+    <state width="1108" height="462" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600445238552" />
+    <state width="1435" height="567" key="GridCell.Tab.1.right/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970513" />
+    <state width="1108" height="462" key="GridCell.Tab.2.bottom" timestamp="1600445238554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595950176165" />
-    <state width="1148" height="463" key="GridCell.Tab.2.center" timestamp="1595950176165">
+    <state width="1108" height="462" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600445238554" />
+    <state width="1108" height="462" key="GridCell.Tab.2.center" timestamp="1600445238554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1595950176165" />
-    <state width="1148" height="463" key="GridCell.Tab.2.left" timestamp="1595950176165">
+    <state width="1108" height="462" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1600445238554" />
+    <state width="1108" height="462" key="GridCell.Tab.2.left" timestamp="1600445238554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1595950176165" />
-    <state width="1148" height="463" key="GridCell.Tab.2.right" timestamp="1595950176165">
+    <state width="1108" height="462" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1600445238554" />
+    <state width="1108" height="462" key="GridCell.Tab.2.right" timestamp="1600445238554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1148" height="463" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1595950176165" />
-    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1595841471271">
+    <state width="1108" height="462" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1600445238554" />
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1597718857429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1595841471271" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1595814301074">
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1597718857429" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1600746262044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595814301074" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600746262044" />
+    <state x="338" y="0" key="SettingsEditor/0.0.1920.1030@0.0.1920.1030" timestamp="1600399735462" />
     <state x="536" y="127" key="VCS.ChangeListViewerDialog" timestamp="1594909794554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="127" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1594909794554" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595903507229">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600857025039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595903507229" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600857025039" />
     <state x="609" y="100" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1595841442427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -762,13 +1055,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595066125381" />
-    <state x="447" y="145" width="817" height="534" key="find.popup" timestamp="1596189146139">
+    <state x="447" y="145" width="821" height="534" key="find.popup" timestamp="1598845438327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="145" width="817" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596189146139" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595834288581">
+    <state x="447" y="145" width="821" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1598845438327" />
+    <state x="178" y="0" key="new project wizard" timestamp="1599837547277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595834288581" />
+    <state x="178" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599837547277" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1597911481265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1597911481265" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599840090627">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599840090627" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/moke-life/moke-recipe/src/main/java/com/moke/recipe/service/impl/RecipeServiceImpl.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/moke-demo/nacos-service-provider/src/main/java/com/moke/NacosProvider/controller/EchoController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

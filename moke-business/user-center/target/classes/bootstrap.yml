@@ -1,0 +1,36 @@
+server:
+  port: 7000
+
+moke:
+  nacos:
+    server-addr: localhost:8848
+
+spring:
+  application:
+    name: user-center
+  cloud:
+    nacos:
+      config:
+        server-addr: ${moke.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${moke.nacos.server-addr}
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+  profiles:
+    active: dev
+
+#  #        zipkin追踪链
+#  zipkin:
+#    base-url: http://127.0.0.1:9411
+#    sender:
+#      type: web
+#  sleuth:
+#    web:
+#      client:
+#        enabled: true
+#    sampler:
+#      probability: 1.0

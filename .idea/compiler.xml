@@ -6,68 +6,71 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="moke-im" />
-        <module name="moke-commone-gateway (1)" />
-        <module name="sentinel-dashboard" />
-        <module name="goods-center" />
-        <module name="file-center" />
-        <module name="IJPay-Demo-SpringBoot" />
-        <module name="sharding-jdbc-demo" />
-        <module name="order-service" />
-        <module name="test-rabbitmq-producer" />
-        <module name="txlcn-demo-common" />
-        <module name="moke-auth-client-spring-boot-starter" />
-        <module name="marking-center" />
-        <module name="user-center" />
-        <module name="cms-center" />
-        <module name="account-service" />
-        <module name="moke-recipe" />
-        <module name="im-client-demo" />
-        <module name="moke-log-spring-boot-starter" />
-        <module name="moke-Dynamic" />
-        <module name="moke-live" />
-        <module name="code-generator" />
-        <module name="rocketmq-produce" />
-        <module name="order-center" />
-        <module name="moke-rocketmq" />
-        <module name="sc-admin" />
-        <module name="moke-common-spring-boot-starter" />
         <module name="moke-demo01" />
-        <module name="test-rabbitmq-consumer" />
-        <module name="rocketmq-springboot-demo" />
-        <module name="moke-sentinel-spring-boot-starter" />
-        <module name="moke-db-spring-boot-starter" />
-        <module name="business-service" />
-        <module name="log-center" />
-        <module name="txlcn-tm" />
+        <module name="order-service" />
         <module name="rocketmq-transactional" />
-        <module name="moke-charity" />
-        <module name="moke-magic" />
-        <module name="rocketmq-consume" />
-        <module name="moke-redis-spring-boot-starter" />
-        <module name="job-admin" />
-        <module name="nacos-service-consumer" />
-        <module name="job-executor-samples" />
-        <module name="seata-common-starter" />
-        <module name="moke-search" />
-        <module name="txlcn-demo-spring-service-c" />
-        <module name="moke-sequence-spring-boot-starter" />
-        <module name="renren-generator" />
-        <module name="moke-theme" />
-        <module name="job-core" />
-        <module name="moke-pay" />
-        <module name="moke-uaa" />
-        <module name="txlcn-demo-spring-service-a" />
-        <module name="moke-ribbon-spring-boot-starter" />
-        <module name="member-center" />
-        <module name="nacos-service-provider" />
-        <module name="ss-sso" />
+        <module name="moke-auth-client-spring-boot-starter" />
         <module name="zuul-gateway" />
+        <module name="goods-center" />
+        <module name="test-rabbitmq-producer" />
+        <module name="im-client-demo" />
+        <module name="member-center" />
+        <module name="sc-admin" />
+        <module name="txlcn-demo-spring-service-b" />
+        <module name="ss-sso" />
+        <module name="account-service" />
+        <module name="sentinel-dashboard" />
+        <module name="uid-generators" />
+        <module name="moke-redis-spring-boot-starter" />
         <module name="moke-GrassClub" />
         <module name="moke-swagger2-spring-boot-starter" />
-        <module name="txlcn-demo-spring-service-b" />
-        <module name="storage-service" />
+        <module name="moke-live" />
+        <module name="renren-generator" />
+        <module name="job-admin" />
         <module name="web-sso" />
+        <module name="code-generator" />
+        <module name="job-executor-samples" />
+        <module name="moke-db-spring-boot-starter" />
+        <module name="order-center" />
+        <module name="moke-im" />
+        <module name="file-center" />
+        <module name="rocketmq-springboot-demo" />
+        <module name="marking-center" />
+        <module name="job-core" />
+        <module name="nacos-service-provider" />
+        <module name="sharding-jdbc-demo" />
+        <module name="rocketmq-consume" />
+        <module name="moke-charity" />
+        <module name="user-center" />
+        <module name="moke-sentinel-spring-boot-starter" />
+        <module name="txlcn-demo-common" />
+        <module name="txlcn-tm" />
+        <module name="moke-uaa" />
+        <module name="test-rabbitmq-consumer" />
+        <module name="moke-mybatis" />
+        <module name="uid-generator" />
+        <module name="IJPay-Demo-SpringBoot" />
+        <module name="nacos-service-consumer" />
+        <module name="moke-magic" />
+        <module name="moke-Dynamic" />
+        <module name="storage-service" />
+        <module name="moke-log-spring-boot-starter" />
+        <module name="moke-ribbon-spring-boot-starter" />
+        <module name="seata-common-starter" />
+        <module name="business-service" />
+        <module name="log-center" />
+        <module name="moke-commone-gateway (1)" />
+        <module name="moke-rocketmq" />
+        <module name="txlcn-demo-spring-service-a" />
+        <module name="cms-center" />
+        <module name="uid-provider" />
+        <module name="moke-recipe" />
+        <module name="moke-pay" />
+        <module name="moke-search" />
+        <module name="moke-theme" />
+        <module name="rocketmq-produce" />
+        <module name="moke-common-spring-boot-starter" />
+        <module name="txlcn-demo-spring-service-c" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -87,6 +90,8 @@
       <module name="httpclient-demo" target="1.5" />
       <module name="IJPay-Demo-SpringBoot" target="1.8" />
       <module name="im-client-demo" target="1.8" />
+      <module name="java-spring-boot-uid" target="1.8" />
+      <module name="java-spring-boot-uid-generator-baidu" target="1.8" />
       <module name="job-admin" target="1.7" />
       <module name="job-core" target="1.7" />
       <module name="job-executor-samples" target="1.7" />
@@ -121,6 +126,7 @@
       <module name="moke-magic" target="1.8" />
       <module name="moke-minio-spring-boot-starter" target="1.8" />
       <module name="moke-monitor" target="1.8" />
+      <module name="moke-mybatis" target="1.8" />
       <module name="moke-pay" target="1.8" />
       <module name="moke-quartz" target="1.8" />
       <module name="moke-recipe" target="1.8" />
@@ -166,6 +172,9 @@
       <module name="txlcn-demo-spring-service-b" target="1.8" />
       <module name="txlcn-demo-spring-service-c" target="1.8" />
       <module name="txlcn-tm" target="1.8" />
+      <module name="uid-generator" target="1.8" />
+      <module name="uid-generators" target="1.8" />
+      <module name="uid-provider" target="1.8" />
       <module name="user-center" target="1.8" />
       <module name="web-sso" target="1.8" />
       <module name="zuul-gateway" target="1.8" />
@@ -217,6 +226,7 @@
       <module name="moke-magic" options="" />
       <module name="moke-minio-spring-boot-starter" options="" />
       <module name="moke-monitor" options="" />
+      <module name="moke-mybatis" options="" />
       <module name="moke-pay" options="" />
       <module name="moke-quartz" options="" />
       <module name="moke-recipe" options="" />
@@ -225,7 +235,7 @@
       <module name="moke-rocketmq" options="" />
       <module name="moke-search" options="" />
       <module name="moke-sentinel-spring-boot-starter" options="" />
-      <module name="moke-sequence-spring-boot-starter" options="" />
+      <module name="moke-sequence-spring-boot-starter" options="-parameters" />
       <module name="moke-swagger2-spring-boot-starter" options="" />
       <module name="moke-theme" options="" />
       <module name="moke-transaction" options="" />
@@ -261,6 +271,9 @@
       <module name="txlcn-demo-spring-service-b" options="" />
       <module name="txlcn-demo-spring-service-c" options="" />
       <module name="txlcn-tm" options="" />
+      <module name="uid-generator" options="" />
+      <module name="uid-generators" options="-parameters" />
+      <module name="uid-provider" options="-parameters" />
       <module name="user-center" options="" />
       <module name="web-sso" options="" />
       <module name="zuul-gateway" options="" />

@@ -5,6 +5,7 @@ package com.moke.recipe.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.moke.common.utils.CommonResult;
+import com.moke.recipe.entity.RecipeDto;
 import com.moke.recipe.entity.RecipeEntity;
 
 
@@ -32,5 +33,7 @@ public interface RecipeService extends IService<RecipeEntity> {
 
 
     CommonResult selectone(Long id);
+
+    CommonResult selectByDate(RecipeDto recipeDto);
 }
 
