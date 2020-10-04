@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal" />
+    <file type="web" url="file://$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz" />
+    <file type="web" url="file://$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring" />
     <file type="web" url="file://$PROJECT_DIR$/moke-life/moke-magic/gecco-spring-task" />
   </component>
   <component name="Kotlin2JsCompilerArguments">

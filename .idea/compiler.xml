@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="moke-demo01" />
         <module name="order-service" />
         <module name="rocketmq-transactional" />
         <module name="moke-auth-client-spring-boot-starter" />
@@ -17,21 +16,22 @@
         <module name="member-center" />
         <module name="sc-admin" />
         <module name="txlcn-demo-spring-service-b" />
-        <module name="ss-sso" />
         <module name="account-service" />
+        <module name="xxl-job-executor-sample-jfinal" />
+        <module name="moke-theme" />
         <module name="sentinel-dashboard" />
         <module name="uid-generators" />
         <module name="moke-redis-spring-boot-starter" />
         <module name="moke-GrassClub" />
         <module name="moke-swagger2-spring-boot-starter" />
         <module name="moke-live" />
-        <module name="renren-generator" />
         <module name="job-admin" />
-        <module name="web-sso" />
+        <module name="xxl-job-executor-sample-frameless" />
         <module name="code-generator" />
         <module name="job-executor-samples" />
         <module name="moke-db-spring-boot-starter" />
         <module name="order-center" />
+        <module name="rocketmq-produce" />
         <module name="moke-im" />
         <module name="file-center" />
         <module name="rocketmq-springboot-demo" />
@@ -42,18 +42,22 @@
         <module name="rocketmq-consume" />
         <module name="moke-charity" />
         <module name="user-center" />
-        <module name="moke-sentinel-spring-boot-starter" />
+        <module name="ss-sso" />
+        <module name="moke-recipe" />
         <module name="txlcn-demo-common" />
         <module name="txlcn-tm" />
         <module name="moke-uaa" />
+        <module name="xxl-job-executor-sample-nutz" />
         <module name="test-rabbitmq-consumer" />
         <module name="moke-mybatis" />
         <module name="uid-generator" />
         <module name="IJPay-Demo-SpringBoot" />
+        <module name="xxl-job-executor-sample-jboot" />
         <module name="nacos-service-consumer" />
         <module name="moke-magic" />
         <module name="moke-Dynamic" />
         <module name="storage-service" />
+        <module name="web-sso" />
         <module name="moke-log-spring-boot-starter" />
         <module name="moke-ribbon-spring-boot-starter" />
         <module name="seata-common-starter" />
@@ -63,13 +67,15 @@
         <module name="moke-rocketmq" />
         <module name="txlcn-demo-spring-service-a" />
         <module name="cms-center" />
+        <module name="xxl-job-executor-sample-springboot" />
         <module name="uid-provider" />
-        <module name="moke-recipe" />
+        <module name="moke-demo01" />
         <module name="moke-pay" />
         <module name="moke-search" />
-        <module name="moke-theme" />
-        <module name="rocketmq-produce" />
+        <module name="xxl-job-executor-sample-spring" />
+        <module name="moke-sentinel-spring-boot-starter" />
         <module name="moke-common-spring-boot-starter" />
+        <module name="renren-generator" />
         <module name="txlcn-demo-spring-service-c" />
       </profile>
     </annotationProcessing>
@@ -92,9 +98,9 @@
       <module name="im-client-demo" target="1.8" />
       <module name="java-spring-boot-uid" target="1.8" />
       <module name="java-spring-boot-uid-generator-baidu" target="1.8" />
-      <module name="job-admin" target="1.7" />
-      <module name="job-core" target="1.7" />
-      <module name="job-executor-samples" target="1.7" />
+      <module name="job-admin" target="1.8" />
+      <module name="job-core" target="1.8" />
+      <module name="job-executor-samples" target="1.8" />
       <module name="kafka-demo" target="1.8" />
       <module name="learning-demo" target="1.8" />
       <module name="log-center" target="1.8" />
@@ -119,7 +125,7 @@
       <module name="moke-gateway-spring-boot-starter" target="1.8" />
       <module name="moke-GrassClub" target="1.8" />
       <module name="moke-im" target="1.8" />
-      <module name="moke-job" target="1.7" />
+      <module name="moke-job" target="1.8" />
       <module name="moke-life" target="1.8" />
       <module name="moke-live" target="1.8" />
       <module name="moke-log-spring-boot-starter" target="1.8" />
@@ -177,6 +183,16 @@
       <module name="uid-provider" target="1.8" />
       <module name="user-center" target="1.8" />
       <module name="web-sso" target="1.8" />
+      <module name="xxl-job" target="1.8" />
+      <module name="xxl-job-admin" target="1.8" />
+      <module name="xxl-job-core" target="1.8" />
+      <module name="xxl-job-executor-sample-frameless" target="1.8" />
+      <module name="xxl-job-executor-sample-jboot" target="1.8" />
+      <module name="xxl-job-executor-sample-jfinal" target="1.8" />
+      <module name="xxl-job-executor-sample-nutz" target="1.8" />
+      <module name="xxl-job-executor-sample-spring" target="1.8" />
+      <module name="xxl-job-executor-sample-springboot" target="1.8" />
+      <module name="xxl-job-executor-samples" target="1.8" />
       <module name="zuul-gateway" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -276,6 +292,14 @@
       <module name="uid-provider" options="-parameters" />
       <module name="user-center" options="" />
       <module name="web-sso" options="" />
+      <module name="xxl-job-admin" options="" />
+      <module name="xxl-job-core" options="" />
+      <module name="xxl-job-executor-sample-frameless" options="" />
+      <module name="xxl-job-executor-sample-jboot" options="" />
+      <module name="xxl-job-executor-sample-jfinal" options="" />
+      <module name="xxl-job-executor-sample-nutz" options="" />
+      <module name="xxl-job-executor-sample-spring" options="" />
+      <module name="xxl-job-executor-sample-springboot" options="" />
       <module name="zuul-gateway" options="" />
     </option>
   </component>

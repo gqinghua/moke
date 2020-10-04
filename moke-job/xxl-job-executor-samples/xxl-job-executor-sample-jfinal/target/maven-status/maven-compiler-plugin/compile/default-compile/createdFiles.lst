@@ -1,0 +1,6 @@
+com\xuxueli\executor\sample\jfinal\jobhandler\DemoJobHandler.class
+com\xuxueli\executor\sample\jfinal\config\JFinalCoreConfig.class
+com\xuxueli\executor\sample\jfinal\controller\IndexController.class
+com\xuxueli\executor\sample\jfinal\jobhandler\HttpJobHandler.class
+com\xuxueli\executor\sample\jfinal\jobhandler\CommandJobHandler.class
+com\xuxueli\executor\sample\jfinal\jobhandler\ShardingJobHandler.class

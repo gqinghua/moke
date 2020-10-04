@@ -1,0 +1,6 @@
+com\xuxueli\executor\sample\frameless\jobhandler\HttpJobHandler.class
+com\xuxueli\executor\sample\frameless\jobhandler\DemoJobHandler.class
+com\xuxueli\executor\sample\frameless\jobhandler\CommandJobHandler.class
+com\xuxueli\executor\sample\frameless\jobhandler\ShardingJobHandler.class
+com\xuxueli\executor\sample\frameless\config\FrameLessXxlJobConfig.class
+com\xuxueli\executor\sample\frameless\FramelessApplication.class

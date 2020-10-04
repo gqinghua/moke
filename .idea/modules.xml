@@ -81,6 +81,14 @@
       <module fileurl="file://$PROJECT_DIR$/moke-demo/java-spring-boot-uid/uid-provider/uid-provider.iml" filepath="$PROJECT_DIR$/moke-demo/java-spring-boot-uid/uid-provider/uid-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-business/user-center/user-center.iml" filepath="$PROJECT_DIR$/moke-business/user-center/user-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-demo/sso-demo/web-sso/web-sso.iml" filepath="$PROJECT_DIR$/moke-demo/sso-demo/web-sso/web-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-job/xxl-job.iml" filepath="$PROJECT_DIR$/moke-job/xxl-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/xxl-job-executor-sample-frameless.iml" filepath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/xxl-job-executor-sample-frameless.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/xxl-job-executor-sample-jboot.iml" filepath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/xxl-job-executor-sample-jboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/xxl-job-executor-sample-jfinal.iml" filepath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/xxl-job-executor-sample-jfinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/xxl-job-executor-sample-nutz.iml" filepath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/xxl-job-executor-sample-nutz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/xxl-job-executor-sample-spring.iml" filepath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/xxl-job-executor-sample-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/xxl-job-executor-sample-springboot.iml" filepath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/xxl-job-executor-sample-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-samples.iml" filepath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-gateway/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/moke-gateway/zuul-gateway/zuul-gateway.iml" />
     </modules>
   </component>
