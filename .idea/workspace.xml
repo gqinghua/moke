@@ -4,738 +4,169 @@
     <list default="true" id="a64d53b1-3b03-415b-92af-234707b5ce7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_11_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_xuxueli_xxl_registry_client_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_xuxueli_xxl_rpc_core_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_2_26_v20180806.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_2_26_v20180806.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_14_v20181114.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_26_v20180806.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_14_v20181114.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_2_26_v20180806.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_26_v20180806.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_14_v20181114.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_j_im_jim_server_2_6_0_v20190114_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_21_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsEmployInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsHelpCategoryDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsHelpDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsMemberReportDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsParterMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsPrefrenceAreaDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsSubjectCategoryDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsSubjectCommentDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsSubjectDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsTopicCategoryDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsTopicCommentDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsTopicDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/CmsTopicMemberDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/cms-center/target/classes/mapper/SmsHomeRecommendSubjectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/generator.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/mapper/SysGeneratorMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/template/Controller.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/template/Mapper.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/template/Mapper.xml.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/template/Model.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/template/Service.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/template/ServiceImpl.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/code-generator/target/classes/template/index.html.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/file-center/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/file-center/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/file-center/target/classes/mapper/FileMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/file-center/target/classes/mapper/SysFileMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/application.ymls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/CmsPrefrenceAreaProductRelationDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/CmsSubjectProductRelationDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsAlbumMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsAlbumPicMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsBrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsCommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsCommentReplayMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsFeightTemplateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsMemberPriceMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductAttributeCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductAttributeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductAttributeValueMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductCategoryAttributeRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductConsultMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductFullReductionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductLadderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductOperateLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsProductVertifyRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/PmsSkuStockMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/SmsHomeAdvertiseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/SmsHomeBrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/SmsHomeNewProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/goods-center/target/classes/mapper/SmsHomeRecommendProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/application.ymls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsCouponHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsCouponMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsCouponProductCategoryRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsCouponProductRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsFlashPromotionLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsFlashPromotionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsFlashPromotionProductRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsFlashPromotionSessionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsGroupMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsGroupMemberMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsRedPacketMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/marking-center/target/classes/mapper/SmsUserRedPacketMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/application.ymls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/SmsDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/SysAreaMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/SysSchoolMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsCollectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsGrowthChangeHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsIntegrationChangeHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsIntegrationConsumeSettingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsMemberBlanceLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsMemberLevelMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsMemberMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsMemberMemberTagRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsMemberProductCategoryRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsMemberRuleSettingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsMemberStatisticsInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsMemberTagMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/member-center/target/classes/mapper/UmsMemberTaskMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/application.ymls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/mapper/OmsCartItemDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/mapper/OmsCompanyAddressDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/mapper/OmsOrderDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/mapper/OmsOrderItemDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/mapper/OmsOrderOperateHistoryDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/mapper/OmsOrderReturnApplyDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/mapper/OmsOrderReturnReasonDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/mapper/OmsOrderSettingDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/order-center/target/classes/mapper/UmsMemberReceiveAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/generator.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/mapper/MySQLGeneratorDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/mapper/OracleGeneratorDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/mapper/PostgreSQLGeneratorDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/mapper/SQLServerGeneratorDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/css/AdminLTE.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/css/all-skins.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/js/generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/libs/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/libs/app.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/libs/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/libs/fastclick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/libs/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/libs/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/libs/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/libs/vue.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/jqgrid/grid.locale-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/jqgrid/jquery.jqGrid.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/jqgrid/ui.jqgrid-bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/jqgrid/ui.jqgrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/mobile/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/mobile/need/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/skin/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/skin/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/skin/moon/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/static/plugins/layer/skin/moon/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/Controller.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/Entity.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/Mapper.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/Mapper.xml.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/Service.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/ServiceImpl.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/add-or-update.vue.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/api.js.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/crud.js.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/index.vue.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/template/menu.sql.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/views/generator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/views/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/classes/views/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/renren-generator-1.0.0.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/surefire-reports/TEST-io.renren.RenrenApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/renren-generator/target/surefire-reports/io.renren.RenrenApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/mapper/SysAdminLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/mapper/SysDictMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/mapper/SysMenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/mapper/SysRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/mapper/SysRolePermissionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/mapper/SysStoreMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/mapper/SysUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/mapper/SysUserRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/BrandDetail.vue.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/Controller.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/Dao.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/Mapper.xml.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/Service.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/ServiceImpl.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/add.vue.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/api.js.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/domain.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/index.vue.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/menu.sql.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/path.js.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-business/user-center/target/classes/templates/common/generator/update.vue.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-commons/moke-log-spring-boot-starter/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-commons/moke-redis-spring-boot-starter/target/classes/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-commons/moke-redis-spring-boot-starter/target/classes/limit.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-commons/moke-ribbon-spring-boot-starter/target/classes/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-commons/moke-sentinel-spring-boot-starter/target/classes/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-commons/moke-swagger2-spring-boot-starter/target/classes/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/im-client-demo/target/classes/client.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/im-client-demo/target/classes/keystore.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/im-client-demo/target/classes/logback.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/im-client-demo/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/im-client-demo/target/classes/server.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/im-client-demo/target/classes/trustedCerts.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/moke-demo01/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/moke-demo01/target/classes/oss-test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/nacos-service-consumer/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/nacos-service-provider/target/classes/META-INF/nacos-service-provider.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/nacos-service-provider/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/rabbitmq-demo/test-rabbitmq-consumer/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/rabbitmq-demo/test-rabbitmq-consumer/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/rabbitmq-demo/test-rabbitmq-producer/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/rabbitmq-demo/test-rabbitmq-producer/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/rocketmq-demo/rocketmq-consume/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/rocketmq-demo/rocketmq-produce/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/rocketmq-demo/rocketmq-springboot-demo/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/rocketmq-demo/rocketmq-transactional/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/account-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/account-service/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/account-service/target/classes/registry.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/business-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/business-service/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/business-service/target/classes/registry.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/order-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/order-service/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/order-service/target/classes/registry.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/seata-common-starter/target/classes/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/storage-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/storage-service/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/seata-demo/storage-service/target/classes/registry.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sharding-jdbc-demo/target/classes/application-master-slave.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sharding-jdbc-demo/target/classes/application-sharding-databases.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sharding-jdbc-demo/target/classes/application-sharding-databases2.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sharding-jdbc-demo/target/classes/application-sharding-databases3.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sharding-jdbc-demo/target/classes/application-sharding-tables.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sharding-jdbc-demo/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sso-demo/ss-sso/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sso-demo/ss-sso/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sso-demo/web-sso/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sso-demo/web-sso/target/classes/static/callback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sso-demo/web-sso/target/classes/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/sso-demo/web-sso/target/classes/static/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-common/target/classes/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-spring-service-a/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-spring-service-a/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-spring-service-b/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-spring-service-b/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-spring-service-c/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-demo/txlcn-demo/txlcn-demo-spring-service-c/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-gateway/zuul-gateway/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-gateway/zuul-gateway/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-gateway/zuul-gateway/target/classes/pubkey.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/NOTICE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/XXL-JOB-English-Documentation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/XXL-JOB官方文档.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/XXL-JOB架构图.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/db/tables_xxl_job.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/cnblog-首页-每日一博-第一.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/cnblog-首页-热门动弹-第一.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/donate-alipay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/donate-paypal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/donate-wechat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/gitee-gvp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_1001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_1002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_6yC0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_BPLG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_EB65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_Fgql.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_Hr2T.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_Qohm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_UDSo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_V3vF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_Wb2o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_Ypik.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_Z9Qr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_ZAhX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_ZAsz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_dNUJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_eYrv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_hIci.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_iUw0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_inc8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_jOAU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_jrdI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_o8HQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_tJOq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/img_tvGI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/qq群-一个xxl同学进了58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/xxl-logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/doc/images/xxl-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/XxlJobAdminApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobCodeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobGroupController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobLogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/annotation/PermissionLimit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/interceptor/CookieInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/interceptor/PermissionInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/interceptor/WebMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/controller/resolver/WebExceptionResolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/alarm/JobAlarm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/alarm/JobAlarmer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/alarm/impl/EmailJobAlarm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/conf/XxlJobAdminConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/cron/CronExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/exception/XxlJobException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLogGlue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLogReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobRegistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/old/RemoteHttpJobBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/old/XxlJobDynamicScheduler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/old/XxlJobThreadPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/ExecutorRouteStrategyEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/ExecutorRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteBusyover.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteConsistentHash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteFailover.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteFirst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteLFU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteLRU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteLast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteRandom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteRound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/scheduler/XxlJobScheduler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobFailMonitorHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobLogReportHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobLosedMonitorHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobRegistryMonitorHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobScheduleHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobTriggerPoolHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/trigger/TriggerTypeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/trigger/XxlJobTrigger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/CookieUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/FtlUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/I18nUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/JacksonUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/LocalCacheUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobGroupDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobInfoDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobLogDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobLogGlueDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobLogReportDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobRegistryDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/service/LoginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/service/XxlJobService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/service/impl/AdminBizImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/java/com/xxl/job/admin/service/impl/XxlJobServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/i18n/message_en.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/i18n/message_zh_CN.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/i18n/message_zh_TC.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobGroupMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogGlueMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogReportMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobRegistryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/Ionicons/css/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/Ionicons/fonts/ionicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/Ionicons/fonts/ionicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/Ionicons/fonts/ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/Ionicons/fonts/ionicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/PACE/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/PACE/themes/blue/pace-theme-flash.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/datatables.net/js/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/fastclick/fastclick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/css/font-awesome.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/jquery-slimscroll/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/bower_components/moment/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/dist/css/AdminLTE.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/dist/css/skins/_all-skins.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/dist/js/adminlte.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/icheck.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/square/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/square/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/square/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/js/common.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/js/jobcode.index.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/js/jobgroup.index.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/js/jobinfo.index.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/js/joblog.detail.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/js/joblog.index.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/js/login.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/js/user.index.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/addon/hint/anyword-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/addon/hint/show-hint.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/addon/hint/show-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/lib/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/lib/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/clike/clike.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/javascript/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/php/php.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/powershell/powershell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/python/python.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/shell/shell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/cronGen/cronGen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/cronGen/cronGen_en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/echarts/echarts.common.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/jquery/jquery.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/jquery/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/layer/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/common/common.exception.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/common/common.macro.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/help.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/jobcode/jobcode.index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/jobgroup/jobgroup.index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/jobinfo/jobinfo.index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/joblog/joblog.detail.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/joblog/joblog.index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/login.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/main/resources/templates/user/user.index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/admin/controller/AbstractSpringMvcTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/admin/controller/JobInfoControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/admin/core/util/JacksonUtilTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobGroupDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobInfoDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobLogDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobLogGlueDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/admin/dao/XxlJobRegistryDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/admin/util/I18nUtilTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/adminbiz/AdminBizTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-admin/src/test/java/com/xxl/job/executorbiz/ExecutorBizTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/AdminBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/ExecutorBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/client/AdminBizClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/client/ExecutorBizClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/impl/ExecutorBizImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/HandleCallbackParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/IdleBeatParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/KillParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/LogParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/LogResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/RegistryParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/ReturnT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/biz/model/TriggerParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/context/XxlJobContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/enums/ExecutorBlockStrategyEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/enums/RegistryConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/executor/XxlJobExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/executor/impl/XxlJobSpringExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/glue/GlueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/glue/GlueTypeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/glue/impl/SpringGlueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/IJobHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/annotation/JobHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/annotation/XxlJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/impl/GlueJobHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/impl/MethodJobHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/handler/impl/ScriptJobHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/log/XxlJobFileAppender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/log/XxlJobLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/server/EmbedServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/thread/ExecutorRegistryThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/thread/JobLogFileCleanThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/thread/JobThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/thread/TriggerCallbackThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/util/DateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/util/FileUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/util/GsonTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/util/IpUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/util/JdkSerializeTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/util/NetUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/util/ScriptUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/util/ShardingUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/util/ThrowableUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-core/src/main/java/com/xxl/job/core/util/XxlJobRemotingUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-life/moke-recipe/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-life/moke-recipe/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-life/moke-recipe/target/classes/mapper/RecipeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-life/moke-theme/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-life/moke-theme/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-monitor/log-center/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-monitor/log-center/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-monitor/sc-admin/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/target/classes/mapper/PayChannelMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/target/classes/mapper/PayGoodsOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/target/classes/mapper/PayNotifyRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/target/classes/mapper/PayRefundOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/target/classes/mapper/PayTradeOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-pay/target/classes/templates/pay.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-search/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-search/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-transaction/txlcn-tm/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-transaction/txlcn-tm/target/classes/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/mall.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/mapper/ClientMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/pubkey.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/static/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/static/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/static/images/cut.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/static/images/logo_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/static/images/logowz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/static/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/static/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moke-uaa/target/classes/zlt.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/.jshintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/README_zh.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/authority.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/cluster_app_assign_manage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/cluster_app_server_list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/cluster_app_server_manage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/cluster_app_server_monitor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/cluster_app_token_client_list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/cluster_single.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/degrade.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/flow_v1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/flow_v2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/gateway/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/gateway/flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/gateway/identity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/identity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/machine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/metric.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/param_flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/controllers/system.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/directives/header/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/directives/header/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/directives/sidebar/sidebar-search/sidebar-search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/directives/sidebar/sidebar-search/sidebar-search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/directives/sidebar/sidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/directives/sidebar/sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/filters/filters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/libs/treeTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/appservice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/auth_service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/authority_service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/cluster_state_service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/degradeservice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/flow_service_v1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/flow_service_v2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/gateway/api_service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/gateway/flow_service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/identityservice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/machineservice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/metricservice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/param_flow_service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/systemservice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/scripts/services/version_service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/styles/page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/styles/timeline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/authority.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/cluster/client.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/cluster/server.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/cluster_app_assign_manage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/cluster_app_client_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/cluster_app_server_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/cluster_app_server_overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/cluster_single_config.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dashboard/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dashboard/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/degrade.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/authority-rule-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/cluster/cluster-client-config-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/cluster/cluster-server-assign-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/cluster/cluster-server-connection-detail-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/confirm-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/degrade-rule-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/flow-rule-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/gateway/api-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/gateway/flow-rule-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/param-flow-rule-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/dialog/system-rule-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/flow_v1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/flow_v2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/gateway/api.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/gateway/flow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/gateway/identity.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/identity.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/machine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/metric.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/pagination.tpl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/param_flow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/app/views/system.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/assets/img/sentinel-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/dist/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/dist/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/dist/js/app.vendor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/index.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/index_dev.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/js/angular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/js/g2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/lib/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/license-stat.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard/target/classes/resources/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uid-generator/target/classes/META-INF/mybatis/mapper/WORKER_NODE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-business/member-center/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-business/member-center/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/i18n/message_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/i18n/message_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/mybatis-mapper/XxlJobGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/mybatis-mapper/XxlJobGroupMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/mybatis-mapper/XxlJobInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/mybatis-mapper/XxlJobInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/mybatis-mapper/XxlJobLogGlueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/mybatis-mapper/XxlJobLogGlueMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/mybatis-mapper/XxlJobLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/mybatis-mapper/XxlJobLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/mybatis-mapper/XxlJobRegistryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/mybatis-mapper/XxlJobRegistryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/Ionicons/css/ionicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/Ionicons/css/ionicons.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/Ionicons/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/Ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/PACE/pace.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/PACE/pace.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/PACE/themes/blue/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/PACE/themes/blue/pace-theme-flash.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/datatables.net/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/datatables.net/js/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/fastclick/fastclick.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/fastclick/fastclick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/font-awesome/css/font-awesome.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/jquery-slimscroll/jquery.slimscroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/jquery-slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/bower_components/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/plugins/iCheck/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/plugins/iCheck/square/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/adminlte/plugins/iCheck/square/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/common.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/common.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/jobcode.index.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/jobcode.index.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/jobgroup.index.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/jobgroup.index.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/jobinfo.index.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/jobinfo.index.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/joblog.detail.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/joblog.detail.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/joblog.index.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/joblog.index.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/login.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/js/login.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/addon/hint/anyword-hint.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/addon/hint/anyword-hint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/addon/hint/show-hint.css" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/addon/hint/show-hint.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/addon/hint/show-hint.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/addon/hint/show-hint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/lib/codemirror.css" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/lib/codemirror.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/lib/codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/lib/codemirror.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/clike/clike.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/clike/clike.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/javascript/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/php/php.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/php/php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/powershell/powershell.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/powershell/powershell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/python/python.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/python/python.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/shell/shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/codemirror/mode/shell/shell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/echarts/echarts.common.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/echarts/echarts.common.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/jquery/jquery.cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/jquery/jquery.cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/jquery/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/jquery/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/layer/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/static/plugins/layer/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/common/common.exception.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/common/common.exception.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/common/common.macro.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/common/common.macro.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/help.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/help.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/jobcode/jobcode.index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/jobcode/jobcode.index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/jobgroup/jobgroup.index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/jobgroup/jobgroup.index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/jobinfo/jobinfo.index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/jobinfo/jobinfo.index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/joblog/joblog.detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/joblog/joblog.detail.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/joblog/joblog.index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/joblog/joblog.index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/moke-job/job-admin/target/classes/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/java/com/xxl/job/executor/JobExecutorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/java/com/xxl/job/executor/core/config/XxlJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/java/com/xxl/job/executor/mvc/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/java/com/xxl/job/executor/service/jobhandler/CommandJobHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/java/com/xxl/job/executor/service/jobhandler/DemoJobHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/java/com/xxl/job/executor/service/jobhandler/HttpJobHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/java/com/xxl/job/executor/service/jobhandler/ShardingJobHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/src/test/java/com/xxl/job/executor/test/XxlJobExecutorExampleBootApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/target/classes/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/target/classes/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/job-executor-samples/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-frameless/target/xxl-job-executor-sample-frameless-2.2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jboot/target/xxl-job-executor-sample-jboot-2.2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/classes/xxl-job-executor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/lib/cglib-nodep-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/lib/groovy-3.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/lib/jfinal-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/lib/netty-all-4.1.50.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/lib/xxl-job-core-2.2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/xxl-job-executor-sample-jfinal-2.2.1-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/classes/xxl-job-executor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/lib/groovy-3.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/lib/netty-all-4.1.50.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/lib/nutz-1.r.62.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/lib/xxl-job-core-2.2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/xxl-job-executor-sample-nutz-2.2.1-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/classes/applicationcontext-xxl-job.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/classes/xxl-job-executor.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/groovy-3.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/logback-core-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/logback-ext-spring-0.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/netty-all-4.1.50.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/lib/xxl-job-core-2.2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/xxl-job-executor-sample-spring-2.2.1-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/xxl-job-executor-sample-springboot-2.2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moke-job/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/xxl-job-executor-sample-springboot-2.2.1-SNAPSHOT.jar.original" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -767,6 +198,9 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sw" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -789,11 +223,13 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\repertory" />
         <option name="mavenHome" value="D:/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ejHjPOwlArVgitoQxVDKHFJKmo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -812,17 +248,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/moke-job" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/moke-job/job-executor-samples/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15384616" />
     <property name="project.structure.side.proportion" value="0.369515" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -857,7 +293,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CmsCenterApp">
+  <component name="RunManager" selected="Spring Boot.ElasticsearchApplication">
     <configuration name="ImServerDemoStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jim.server.demo.ImServerDemoStart" />
       <module name="moke-im" />
@@ -867,21 +303,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CachedUidGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="uid-generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.baidu.fsg.uid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.baidu.fsg.uid" />
-      <option name="MAIN_CLASS_NAME" value="com.baidu.fsg.uid.CachedUidGeneratorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -926,13 +347,6 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.csp.sentinel.dashboard.DashboardApplication" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="IJPay-Demo-SpringBoot" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ijpay.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1061,13 +475,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="renren-generator" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RocketMqConsumeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rocketmq-consume" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rocketmq.RocketMqConsumeApplication" />
@@ -1165,8 +572,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XxlJobAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xxl-job-admin" />
+    <configuration name="XxlJobAdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="job-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxl.job.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxl.job.admin.XxlJobAdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1174,14 +587,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.ImServerDemoStart" />
-      <item itemvalue="JUnit.CachedUidGeneratorTest" />
       <item itemvalue="Spring Boot.AccountServiceApplication" />
       <item itemvalue="Spring Boot.BusinessServiceApplication" />
       <item itemvalue="Spring Boot.CmsCenterApp" />
       <item itemvalue="Spring Boot.CodeGeneratorApp" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.DashboardApplication" />
-      <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.ElasticsearchApplication" />
       <item itemvalue="Spring Boot.FileCenterApp" />
       <item itemvalue="Spring Boot.GatewayApp" />
@@ -1196,7 +607,6 @@
       <item itemvalue="Spring Boot.OrderCenterApp" />
       <item itemvalue="Spring Boot.OrderServiceApplication" />
       <item itemvalue="Spring Boot.ProviderApplication" />
-      <item itemvalue="Spring Boot.RenrenApplication" />
       <item itemvalue="Spring Boot.RocketMqConsumeApplication" />
       <item itemvalue="Spring Boot.RocketMqProduceApplication" />
       <item itemvalue="Spring Boot.RocketMqTxApplication" />
@@ -1209,18 +619,18 @@
       <item itemvalue="Spring Boot.TransactionManagerApplication" />
       <item itemvalue="Spring Boot.UserCenterApp" />
       <item itemvalue="Spring Boot.WebSSOApplication" />
-      <item itemvalue="Spring Boot.XxlJobAdminApplication" />
       <item itemvalue="Spring Boot.UaaServerApp" />
       <item itemvalue="Spring Boot.ProviderApplication (1)" />
       <item itemvalue="Spring Boot.RecipeApp" />
+      <item itemvalue="Spring Boot.XxlJobAdminApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.XxlJobAdminApplication (1)" />
         <item itemvalue="Spring Boot.RecipeApp" />
         <item itemvalue="Spring Boot.UaaServerApp" />
         <item itemvalue="Application.ImServerDemoStart" />
         <item itemvalue="Spring Boot.ProviderApplication (1)" />
-        <item itemvalue="JUnit.CachedUidGeneratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1420,7 +830,20 @@
       <workItem from="1601216727854" duration="680000" />
       <workItem from="1601295148981" duration="1238000" />
       <workItem from="1601433036947" duration="33000" />
-      <workItem from="1601777498706" duration="1809000" />
+      <workItem from="1601777498706" duration="2020000" />
+      <workItem from="1601954698159" duration="1354000" />
+      <workItem from="1601987599312" duration="1215000" />
+      <workItem from="1602121560721" duration="1607000" />
+      <workItem from="1602150431815" duration="521000" />
+      <workItem from="1602204208748" duration="998000" />
+      <workItem from="1602209653933" duration="225000" />
+      <workItem from="1602210436454" duration="145000" />
+      <workItem from="1602210664987" duration="269000" />
+      <workItem from="1602226938454" duration="381000" />
+      <workItem from="1602246964946" duration="4000" />
+      <workItem from="1602247019571" duration="40000" />
+      <workItem from="1602294913437" duration="3654000" />
+      <workItem from="1602379082376" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="2020/7/15日 10:28  重新开始项目  项目回滚.">
       <created>1594868991119</created>
@@ -1632,7 +1055,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601217055235</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="2020/10/4 guoqinghua  添加xxl-job,更换之前">
+      <created>1601779987983</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1601779987983</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1663,7 +1093,8 @@
     <MESSAGE value="2020/9/23 guoqinghua 修改cms代码,如果出现错误,可回滚代码" />
     <MESSAGE value="2020/8/2 guoqinghua 修改cms代码,如果出现错误,可回滚代码" />
     <MESSAGE value="2020/9/27 guoqinghua  添加xxl-job,更换之前" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/9/27 guoqinghua  添加xxl-job,更换之前" />
+    <MESSAGE value="2020/10/4 guoqinghua  添加xxl-job,更换之前" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/10/4 guoqinghua  添加xxl-job,更换之前" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Inspections" timestamp="1595430617042">
@@ -1674,14 +1105,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594869257241" />
-    <state x="361" y="71" key="#Project_Structure" timestamp="1597718766447">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1602314270856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1597718766447" />
-    <state x="300" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600273632032">
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602314270856" />
+    <state x="300" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602206071152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="300" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600273632032" />
+    <state x="300" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602206071152" />
     <state x="430" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601217373459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1698,37 +1129,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="0" key="#user-center/Dockerfile/0.0.1536.824@0.0.1536.824" timestamp="1595680042231" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1601217049180">
+    <state x="233" y="0" key="CommitChangelistDialog2" timestamp="1602379185802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601217049180" />
+    <state x="233" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602379185802" />
     <state x="134" y="64" key="DiffContextDialog" timestamp="1598585667438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="134" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1598585667438" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601433061539">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602317321968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601433061539" />
-    <state width="1493" height="379" key="GridCell.Tab.0.bottom" timestamp="1601217411068">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602317321968" />
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom" timestamp="1602379226723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601217411068" />
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602379226723" />
     <state width="1435" height="567" key="GridCell.Tab.0.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970512" />
-    <state width="1493" height="379" key="GridCell.Tab.0.center" timestamp="1601217411068">
+    <state width="1493" height="286" key="GridCell.Tab.0.center" timestamp="1602379226723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601217411068" />
+    <state width="1493" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602379226723" />
     <state width="1435" height="567" key="GridCell.Tab.0.center/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970512" />
-    <state width="1493" height="379" key="GridCell.Tab.0.left" timestamp="1601217411067">
+    <state width="1493" height="286" key="GridCell.Tab.0.left" timestamp="1602379226723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601217411067" />
+    <state width="1493" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602379226723" />
     <state width="1435" height="567" key="GridCell.Tab.0.left/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970512" />
-    <state width="1493" height="379" key="GridCell.Tab.0.right" timestamp="1601217411068">
+    <state width="1493" height="286" key="GridCell.Tab.0.right" timestamp="1602379226723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="379" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601217411068" />
+    <state width="1493" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602379226723" />
     <state width="1435" height="567" key="GridCell.Tab.0.right/0.0.1920.1030@0.0.1920.1030" timestamp="1600273970512" />
     <state width="1108" height="462" key="GridCell.Tab.1.bottom" timestamp="1600445238552">
       <screen x="0" y="0" width="1536" height="824" />
@@ -1770,19 +1201,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1597718857429" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1601217218492">
+    <state x="270" y="83" width="996" height="707" key="SettingsEditor" timestamp="1602379115604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601217218492" />
+    <state x="270" y="83" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602379115604" />
     <state x="338" y="0" key="SettingsEditor/0.0.1920.1030@0.0.1920.1030" timestamp="1600399735462" />
     <state x="536" y="127" key="VCS.ChangeListViewerDialog" timestamp="1594909794554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="127" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1594909794554" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601217109252">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602204222843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601217109252" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602204222843" />
     <state x="609" y="100" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1595841442427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1795,18 +1226,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595066125381" />
-    <state x="447" y="145" width="821" height="534" key="find.popup" timestamp="1598845438327">
+    <state x="392" y="158" width="821" height="534" key="find.popup" timestamp="1602295120654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="145" width="821" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1598845438327" />
+    <state x="392" y="158" width="821" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1602295120654" />
     <state x="178" y="0" key="new project wizard" timestamp="1599837547277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599837547277" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1597911481265">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1602316566713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1597911481265" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602316566713" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599840090627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

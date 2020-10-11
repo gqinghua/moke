@@ -15,23 +15,22 @@
         <module name="im-client-demo" />
         <module name="member-center" />
         <module name="sc-admin" />
-        <module name="txlcn-demo-spring-service-b" />
+        <module name="txlcn-demo-spring-service-c" />
         <module name="account-service" />
         <module name="xxl-job-executor-sample-jfinal" />
-        <module name="moke-theme" />
+        <module name="xxl-job-executor-sample-spring" />
         <module name="sentinel-dashboard" />
         <module name="uid-generators" />
         <module name="moke-redis-spring-boot-starter" />
         <module name="moke-GrassClub" />
         <module name="moke-swagger2-spring-boot-starter" />
         <module name="moke-live" />
+        <module name="renren-generator" />
         <module name="job-admin" />
         <module name="xxl-job-executor-sample-frameless" />
         <module name="code-generator" />
-        <module name="job-executor-samples" />
         <module name="moke-db-spring-boot-starter" />
         <module name="order-center" />
-        <module name="rocketmq-produce" />
         <module name="moke-im" />
         <module name="file-center" />
         <module name="rocketmq-springboot-demo" />
@@ -43,7 +42,6 @@
         <module name="moke-charity" />
         <module name="user-center" />
         <module name="ss-sso" />
-        <module name="moke-recipe" />
         <module name="txlcn-demo-common" />
         <module name="txlcn-tm" />
         <module name="moke-uaa" />
@@ -67,16 +65,17 @@
         <module name="moke-rocketmq" />
         <module name="txlcn-demo-spring-service-a" />
         <module name="cms-center" />
+        <module name="moke-sentinel-spring-boot-starter" />
         <module name="xxl-job-executor-sample-springboot" />
         <module name="uid-provider" />
         <module name="moke-demo01" />
         <module name="moke-pay" />
         <module name="moke-search" />
-        <module name="xxl-job-executor-sample-spring" />
-        <module name="moke-sentinel-spring-boot-starter" />
+        <module name="moke-theme" />
+        <module name="rocketmq-produce" />
         <module name="moke-common-spring-boot-starter" />
-        <module name="renren-generator" />
-        <module name="txlcn-demo-spring-service-c" />
+        <module name="moke-recipe" />
+        <module name="txlcn-demo-spring-service-b" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -13,7 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/moke-demo/java-spring-boot-uid/java-spring-boot-uid.iml" filepath="$PROJECT_DIR$/moke-demo/java-spring-boot-uid/java-spring-boot-uid.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-job/job-admin/job-admin.iml" filepath="$PROJECT_DIR$/moke-job/job-admin/job-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-job/job-core/job-core.iml" filepath="$PROJECT_DIR$/moke-job/job-core/job-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/moke-job/job-executor-samples/job-executor-samples.iml" filepath="$PROJECT_DIR$/moke-job/job-executor-samples/job-executor-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-monitor/log-center/log-center.iml" filepath="$PROJECT_DIR$/moke-monitor/log-center/log-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-business/marking-center/marking-center.iml" filepath="$PROJECT_DIR$/moke-business/marking-center/marking-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/moke-business/member-center/member-center.iml" filepath="$PROJECT_DIR$/moke-business/member-center/member-center.iml" />
