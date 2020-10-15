@@ -1,16 +1,5 @@
 package org.jim.server.demo.service;
 
-import cn.hutool.core.io.FileUtil;
-import com.jfinal.kit.PropKit;
-import org.apache.commons.lang3.StringUtils;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.tio.utils.lock.ListWithLock;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -19,8 +8,20 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
 
+import org.apache.commons.lang3.StringUtils;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.tio.utils.lock.ListWithLock;
+import cn.hutool.core.io.FileUtil;
+
 /**
- *
+ * 美女图
+ * @author tanyaowu
+ * 2017年5月14日 上午9:48:03
  */
 public class ImgMnService {
 	private static Logger log = LoggerFactory.getLogger(ImgMnService.class);
@@ -28,12 +29,16 @@ public class ImgMnService {
 	public static final ListWithLock<String> imgListWithLock = new ListWithLock<>(new ArrayList<String>());
 
 	public static final String dftimg = "http://images.rednet.cn/articleimage/2013/01/23/1403536948.jpg";
-	
+
 	public static final String filepath = "/page/imgs/mn.txt";
 
 	public static final int maxSize = 100000;
+
+	static {
+		start();
+	}
 	/**
-	 * 
+	 *
 	 * @author: tanyaowu
 	 */
 	public ImgMnService() {
@@ -41,7 +46,7 @@ public class ImgMnService {
 	}
 
 	static AtomicInteger imgIndex = new AtomicInteger();
-	
+
 	public static String nextImg() {
 
 		Lock lock = imgListWithLock.getLock().readLock();
@@ -54,7 +59,7 @@ public class ImgMnService {
 			}
 
 			int index = imgIndex.incrementAndGet() % list.size();// RandomUtil.randomInt(0, list.size() - 1);
-			log.error("图片index:" + index);
+			log.debug("图片index:" + index);
 			String imgsrc = list.get(index);
 			if (StringUtils.isNotBlank(imgsrc)) {
 				return imgsrc;
@@ -71,14 +76,13 @@ public class ImgMnService {
 	}
 
 	public static void start() {
-		PropKit.use("app.properties");
 		new Thread(new Runnable() {
 			@Override
 			public void run() {
 				while (true) {
 					work();
 					try {
-						Thread.sleep(PropKit.getInt("shedule",5)*1000 * 60); //多长时间爬一次
+						Thread.sleep(60*1000 * 60); //多长时间爬一次
 					} catch (Exception e) {
 						log.error(e.toString(), e);
 					}
@@ -88,7 +92,7 @@ public class ImgMnService {
 
 	}
 
-	static String[] pags = new String[] { 
+	static String[] pags = new String[] {
 			"http://www.mmonly.cc/wmtp/wmxz/list_27_1.html",  //唯美写真
 			/*"http://www.mmonly.cc/wmtp/wmxz/list_27_2.html",  //唯美写真
 			"http://www.mmonly.cc/wmtp/wmxz/list_27_3.html",  //唯美写真
@@ -107,9 +111,8 @@ public class ImgMnService {
 			"http://www.mmonly.cc/wmtp/wmxz/list_27_16.html",  //唯美写真
 			"http://www.mmonly.cc/wmtp/wmxz/list_27_17.html",  //唯美写真
 			"http://www.mmonly.cc/wmtp/wmxz/list_27_18.html",  //唯美写真
-			
-			"http://www.mmonly.cc/wmtp/qltp/list_22_2.html",   //情侣图片
-*/			
+
+			"http://www.mmonly.cc/wmtp/qltp/list_22_2.html",   //情侣图片*/
 	 };
 
 	public static void work() {
@@ -124,17 +127,17 @@ public class ImgMnService {
 		}else{
 			FileUtil.touch(file);//创建文件
 		}
-		
+
 		List<String> list = new ArrayList<>();
 		list.addAll(imgListWithLock.getObj());
-		
+
 		long sleeptime = 500;
 		boolean isfirst = false;
 		if (list.size() == 0) {
 			isfirst = true;
 			sleeptime = 1;
 		}
-		
+
 		L1: for (String pag : pags) {
 			try {
 				Document doc = null;
@@ -145,9 +148,9 @@ public class ImgMnService {
 				Elements div = doc.select("div.ABox");
 				//根据标签获取元素
 				Elements pages = div.select("a");
-				
 
-				
+
+
 				int count = 0;
 				int invalidCount = 0;
 				for (Element e : pages) {
@@ -170,7 +173,7 @@ public class ImgMnService {
 									Elements p = div2.select("p");
 									Elements img = p.select("img");
 									String src = img.attr("src");
-									
+
 									if (StringUtils.isBlank(src) || !StringUtils.startsWith(src, "http")) {
 										continue;
 									}
@@ -207,16 +210,16 @@ public class ImgMnService {
 					savefile(list);
 				}
 
-				log.error("抓取图片地址，打完收工，本次共找到:{}, 其中有效数据:{}，", count, invalidCount);
-				
-				
-				
+				log.debug("抓取图片地址，打完收工，本次共找到:{}, 其中有效数据:{}，", count, invalidCount);
+
+
+
 			} catch (Exception e) {
 				log.error(e.toString(), e);
 			}
 
 		}
-		
+
 		List<String> list1 = imgListWithLock.getObj();
 		FileUtil.writeLines(list1,file.getPath(), "utf-8");
 	}
@@ -240,11 +243,11 @@ public class ImgMnService {
 			lock.lock();
 			List<String> list = imgListWithLock.getObj();
 			list.add(src);
-			log.error("{}、【{}】", list.size(), src);
+			log.debug("{}、【{}】", list.size(), src);
 			while (list.size() > maxSize) {
 				return false;
 			}
-			
+
 		} catch (Exception e1) {
 			log.error(e1.toString(), e1);
 		} finally {

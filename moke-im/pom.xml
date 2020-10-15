@@ -12,7 +12,7 @@
   	 	<dependency>
 			<groupId>org.j-im</groupId>
 			<artifactId>jim-server</artifactId>
-			<version>2.6.0.v20190114-RELEASE</version>
+			<version>3.0.0.v20200501-RELEASE</version>
 		</dependency>
   </dependencies>
 
