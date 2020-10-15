@@ -40,6 +40,7 @@ public class LoginServiceProcessor extends AbstractProtocolCmdProcessor implemen
 	 * @return
 	 * @author: WChao
 	 */
+	@Override
 	public User getUser(LoginReqBody loginReqBody, ImChannelContext imChannelContext) {
 		String text = loginReqBody.getUserId()+loginReqBody.getPassword();
 		String key = ImConst.AUTH_KEY;

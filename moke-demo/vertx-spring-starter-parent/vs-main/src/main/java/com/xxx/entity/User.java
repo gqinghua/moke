@@ -45,9 +45,7 @@ public class User {
     public User() {
     }
 
-    public User(JsonObject jsonObject) {
-        UserConverter.fromJson(jsonObject, this);
-    }
+
 
 
     public String getName() {
@@ -108,9 +106,5 @@ public class User {
         this.age = age;
     }
 
-    public JsonObject toJson() {
-        JsonObject json = new JsonObject();
-        UserConverter.toJson(this, json);
-        return json;
-    }
+
 }

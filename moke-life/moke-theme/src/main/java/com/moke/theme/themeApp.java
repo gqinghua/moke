@@ -14,9 +14,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 //@EnableTransactionManagement
 @SpringBootApplication
-public class ThemeApp {
+public class themeApp {
     public static void main(String[] args) {
-        SpringApplication.run(ThemeApp.class, args);
+        SpringApplication.run(themeApp.class, args);
     }
 
 

@@ -1,8 +1,8 @@
 package com.xxx.model;
 
 /**
- * @author Xu Haidong
- * @date 2018/8/15
+ * @author
+ * @date
  */
 public interface BaseAsyncService {
 

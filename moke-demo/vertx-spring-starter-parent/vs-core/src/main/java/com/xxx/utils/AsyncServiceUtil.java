@@ -5,7 +5,7 @@ import io.vertx.core.Vertx;
 import io.vertx.serviceproxy.ServiceProxyBuilder;
 
 /**
- * @author Xu Haidong
+ * @author
  * @date 2018/8/15
  */
 public final class AsyncServiceUtil {
