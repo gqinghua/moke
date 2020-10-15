@@ -24,5 +24,6 @@
         <module>nacos-service-consumer</module>
         <module>nacos-service-provider</module>
         <module>java-spring-boot-uid</module>
+        <module>vertx-spring-starter-parent</module>
     </modules>
 </project>
