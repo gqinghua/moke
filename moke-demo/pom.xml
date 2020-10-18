@@ -19,7 +19,7 @@
         <module>rocketmq-demo</module>
         <module>rabbitmq-demo</module>
         <module>im-client-demo</module>
-        <module>IJPay-Demo-SpringBoot</module>
+<!--        <module>IJPay-Demo-SpringBoot</module>-->
         <module>moke-demo01</module>
         <module>nacos-service-consumer</module>
         <module>nacos-service-provider</module>

@@ -10,8 +10,8 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>job-core</module>
-		<module>job-admin</module>
+		<module>xxl-job-core</module>
+		<module>xxl-job-admin</module>
 		<module>xxl-job-executor-samples</module>
     </modules>
 

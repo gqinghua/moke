@@ -14,5 +14,10 @@ import java.util.List;
 @ProxyGen
 public interface UserAsyncService {
 
+    /**
+     * sss
+     * @param user
+     * @param resultHandler
+     */
     void listUsers(User user, Handler<AsyncResult<List<User>>> resultHandler);
 }

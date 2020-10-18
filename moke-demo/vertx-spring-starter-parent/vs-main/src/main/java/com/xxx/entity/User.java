@@ -1,9 +1,6 @@
 package com.xxx.entity;
 
-import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableLogic;
+import com.baomidou.mybatisplus.annotation.*;
 import io.vertx.codegen.annotations.DataObject;
 import io.vertx.core.json.JsonObject;
 
@@ -13,7 +10,7 @@ import java.util.Date;
  * @author Xu Haidong
  * @date 2018/8/2
  */
-@DataObject(generateConverter = true)
+@TableName("User")
 public class User {
 
     @TableId("test_id")
@@ -42,8 +39,6 @@ public class User {
 
     private String phone;
 
-    public User() {
-    }
 
 
 

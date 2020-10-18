@@ -10,6 +10,11 @@ import java.lang.annotation.*;
 @Documented
 public @interface RouteMapping {
 
+    /**
+     *
+     * @return
+     *
+     */
     String value() default "";
 
     /**** 是否覆盖 *****/
