@@ -21,7 +21,7 @@ import java.io.IOException;
  * @date 2018/8/2
  */
 @SpringBootApplication
-@ComponentScan("com.xxx")
+//@ComponentScan("com.xxx")
 public class App {
     /**
      * web api所在包路径
