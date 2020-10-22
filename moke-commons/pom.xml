@@ -20,6 +20,7 @@
         <module>moke-auth-client-spring-boot-starter</module>
         <module>moke-sentinel-spring-boot-starter</module>
         <module>moke-sequence-spring-boot-starter</module>
+        <module>moke-klock-spring-boot-starter</module>
 
     </modules>
 </project>

@@ -39,8 +39,8 @@ public class User {
 
     private String phone;
 
-
-
+    public User(JsonObject param) {
+    }
 
 
     public String getName() {

@@ -11,6 +11,7 @@ import java.util.Optional;
 /**
  * 当数据
  * Create by liping on 2018/9/14
+ * @author 92306
  */
 public class MultiPartFormDateToJson {
 
@@ -21,10 +22,12 @@ public class MultiPartFormDateToJson {
         //获得分割后的参数
         String[] ps = Optional.ofNullable(params).orElse("").split(boundary);
         for (String p : ps) {
-            if(p.equals(""))
+            if(p.equals("")) {
                 continue;
-            if (p.equals("--\r\n"))
+            }
+            if (p.equals("--\r\n")) {
                 continue;
+            }
             p = p.trim().replaceAll("\r\n", "&&");
             String[] ds = p.split(";");
             //获得参数名
