@@ -107,6 +107,7 @@
                 <artifactId>spring-cloud-starter-stream-rocketmq</artifactId>
                 <version>2.1.2.RELEASE</version>
             </dependency>
+            <!-- 缓存框架-->
             <dependency>
                 <groupId>com.alicp.jetcache</groupId>
                 <artifactId>jetcache-starter-redis</artifactId>
@@ -388,17 +389,17 @@
                 <version>${minio.version}</version>
             </dependency>
 
+            <!--            <dependency>-->
+            <!--                <groupId>com.alibaba.csp</groupId>-->
+            <!--                <artifactId>sentinel-zuul2-adapter</artifactId>-->
+            <!--                <version>1.</version>-->
+            <!--            </dependency>-->
+
 <!--            <dependency>-->
 <!--                <groupId>com.alibaba.csp</groupId>-->
 <!--                <artifactId>sentinel-zuul2-adapter</artifactId>-->
-<!--                <version>1.</version>-->
+<!--                <version>1.7.2</version>-->
 <!--            </dependency>-->
-
-            <dependency>
-                <groupId>com.alibaba.csp</groupId>
-                <artifactId>sentinel-zuul2-adapter</artifactId>
-                <version>1.7.2</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -443,7 +444,6 @@
     </distributionManagement>
 
 
-
     <modules>
         <!-- 公共 -->
         <module>moke-commons</module>
@@ -474,7 +474,7 @@
         <module>moke-search</module>
         <!--        支付-->
         <module>moke-pay</module>
-<!--        百度分布式id-->
+        <!--        百度分布式id-->
         <module>uid-generator</module>
         <module>moke-life/moke-mybatis</module>
 
