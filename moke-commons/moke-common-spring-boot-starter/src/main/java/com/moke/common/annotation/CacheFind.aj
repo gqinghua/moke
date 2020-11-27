@@ -8,6 +8,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD) //注解对方法有效
 @Retention(RetentionPolicy.RUNTIME)  //运行期有效
 public @interface CacheFind {
-    public String preKey();          //用户标识key的前缀.
-    public int seconds() default 0;  //如果用户不写表示不需要超时. 如果写了以用户为准.
+     String preKey();          //用户标识key的前缀.
+     int seconds() default 0;  //如果用户不写表示不需要超时. 如果写了以用户为准.
 }
