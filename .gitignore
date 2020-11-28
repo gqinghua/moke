@@ -14,14 +14,13 @@
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
-.mtj.tmp/
-moke.iml
-/target/
-*.err
-.settings
-.classpath
-.project
-/.idea/
-*.iml
+
+
+#/target/
+#*.err
+#.settings
+#.classpath
+#.project
+#*.iml
 
 
