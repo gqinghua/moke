@@ -1,5 +1,6 @@
 package com.moke.theme.controller;
 
+import com.moke.common.annotation.CacheFind;
 import com.moke.common.utils.CommonResult;
 import com.moke.theme.entity.LifeThemeEntity;
 import com.moke.theme.service.LifeThemeService;
@@ -28,6 +29,7 @@ public class LifeThemeController {
      */
     @PostMapping(value = "/list")
     @ApiOperation("分页查询")
+    @CacheFind(preKey = "ss")
     public CommonResult list(@RequestBody LifeThemeEntity lifeTheme,
                              @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
                              @RequestParam(value = "pageSize", defaultValue = "10") Integer pageSize) {

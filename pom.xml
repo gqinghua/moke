@@ -475,7 +475,6 @@
         <!--        支付-->
         <module>moke-pay</module>
         <!--        百度分布式id-->
-        <module>uid-generator</module>
         <module>moke-life/moke-mybatis</module>
 
     </modules>

@@ -46,6 +46,7 @@ public class CmsHelpController {
     ) {
         try {
             return Result.SUCCESS(ICmsHelpService.page(new Page<CmsHelp>(pageNum, pageSize), new QueryWrapper<>(entity).orderByDesc("create_time")));
+
         } catch (Exception e) {
             log.error("根据条件查询所有帮助表列表：%s", e.getMessage(), e);
         }

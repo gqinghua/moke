@@ -1,12 +1,14 @@
 package com.moke.cms.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.moke.common.annotation.SysLog;
 import com.moke.common.entity.cms.CmsSubjectComment;
 import com.moke.cms.service.ICmsSubjectCommentService;
 import com.moke.common.utils.CommonResult;
 import com.moke.common.utils.ValidatorUtils;
+import com.moke.log.monitor.PointUtil;
 import com.moke.util.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -46,7 +48,9 @@ public class CmsSubjectCommentController {
                                              @RequestParam(value = "pageSize", defaultValue = "10") Integer pageSize
     ) {
         try {
-            return Result.SUCCESS(ICmsSubjectCommentService.page(new Page<CmsSubjectComment>(pageNum, pageSize), new QueryWrapper<>(entity).orderByDesc("create_time")));
+            IPage<CmsSubjectComment> create_time = ICmsSubjectCommentService.page(new Page<CmsSubjectComment>(pageNum, pageSize), new QueryWrapper<>(entity).orderByDesc("create_time"));
+            PointUtil.info("5L","SS","SS");
+            return Result.SUCCESS(create_time);
         } catch (Exception e) {
             log.error("根据条件查询所有专题评论表列表：%s", e.getMessage(), e);
         }

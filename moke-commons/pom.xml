@@ -11,8 +11,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>moke-redis-spring-boot-starter</module>
         <module>moke-common-spring-boot-starter</module>
+        <module>moke-redis-spring-boot-starter</module>
+
         <module>moke-db-spring-boot-starter</module>
         <module>moke-swagger2-spring-boot-starter</module>
         <module>moke-log-spring-boot-starter</module>
