@@ -10,11 +10,11 @@
     <description>zuul网关</description>
 
     <dependencies>
-<!--        &lt;!&ndash;gateway 网关依赖,内置webflux 依赖&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-gateway</artifactId>-->
-<!--        </dependency>-->
+        <!--gateway 网关依赖,内置webflux 依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+        </dependency>
         <!-- 公共实体类模块 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
