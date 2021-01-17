@@ -23,7 +23,7 @@
         <module>moke-demo01</module>
         <module>nacos-service-consumer</module>
         <module>nacos-service-provider</module>
-        <module>vertx-spring-starter-parent</module>
+        <module>moke-x</module>
 
     </modules>
 </project>
