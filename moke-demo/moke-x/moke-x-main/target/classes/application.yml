@@ -1,0 +1,4 @@
+spring:
+  profiles:
+    #开发dev 测试test 生产prod
+    active: dev
