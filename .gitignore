@@ -414,3 +414,7 @@ sentinel-dashboard/target/sentinel-dashboard.jar
 sentinel-dashboard/target/sentinel-dashboard.jar.original
 sentinel-dashboard/target/site/
 sentinel-dashboard/target/surefire-reports/
+moke-business/renren-generator/target/classes/mapper/
+moke-commons/moke-ribbon-spring-boot-starter/target/generated-sources/
+moke-life/moke-mybatis/src/main/resources/
+moke-search/src/main/java/com/moke/search/config/
