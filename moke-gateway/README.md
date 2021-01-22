@@ -1,1 +1,1 @@
-去除zull依赖,使用gateway进行全局异常过滤和服务编排任务,结合自定义的conone
+黑名单拦截,结合nacos sentinel 进行热编排

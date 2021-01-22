@@ -170,3 +170,8 @@ swagger:
     swagger-version: 2.0
     auto-generate-from-zuul-routes: true
     generate-routes: user,file,goods-center,ums-center,order-center,sms-center,cms-center
+
+# 日志
+logging:
+  level:
+    root: info

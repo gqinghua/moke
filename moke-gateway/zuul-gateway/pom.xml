@@ -26,6 +26,10 @@
         </dependency>
         <dependency>
             <groupId>com.moke</groupId>
+            <artifactId>moke-common-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.moke</groupId>
             <artifactId>moke-ribbon-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
@@ -99,6 +103,11 @@
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-transport-simple-http</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-zuul2-adapter</artifactId>
+            <version>1.7.2</version>
         </dependency>
         <!-- zipkin链路追踪 -->
         <dependency>
