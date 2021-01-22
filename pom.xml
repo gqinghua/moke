@@ -123,8 +123,6 @@
                 <artifactId>moke-db-spring-boot-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
-
             <dependency>
                 <groupId>com.moke</groupId>
                 <artifactId>moke-log-spring-boot-starter</artifactId>
