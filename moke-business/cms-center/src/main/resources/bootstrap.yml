@@ -15,6 +15,9 @@ spring:
         file-extension: yml
         shared-dataids: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
         refreshable-dataids: common.yml
+        prefix: cms-center
+        group: com.sgcc.dataservice.main
+        namespace: xxxxxxxxxxxxxx
       discovery:
         server-addr: ${moke.nacos.server-addr}
     sentinel:

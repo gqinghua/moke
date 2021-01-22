@@ -1,106 +1,68 @@
 package com.moke.util;
 
+import lombok.*;
+import lombok.experimental.Accessors;
+
 import java.io.Serializable;
 
+
 /**
- * 统一响应消息报文
+ * 响应信息主体
  *
- * @param <T> 　T对象
- * @author pangu
+ * @param <T>
+ * @author
  */
 
-public class Result<T> implements Serializable {
-
+@NoArgsConstructor
+@AllArgsConstructor
+@Accessors(chain = true)
+public class Result <T> implements Serializable {
 	private static final long serialVersionUID = 1L;
+
 
 	private int code;
 
+
 	private String msg;
 
-	private long time;
+
 
 	private T data;
 
-	private Result() {
-		this.time = System.currentTimeMillis();
+	public static <T> Result<T> SUCCESS() {
+		return restResult(null, CommonConstants.SUCCESS, null);
 	}
 
-	private Result(IResultCode resultCode) {
-		this(resultCode, null, resultCode.getMsg());
+	public static <T> Result<T> SUCCESS(T data) {
+		return restResult(data, CommonConstants.SUCCESS, null);
 	}
 
-	private Result(IResultCode resultCode, String msg) {
-		this(resultCode, null, msg);
+	public static <T> Result<T> SUCCESS(T data, String msg) {
+		return restResult(data, CommonConstants.SUCCESS, msg);
 	}
 
-	private Result(IResultCode resultCode, T data) {
-		this(resultCode, data, resultCode.getMsg());
+	public static <T> Result<T> failed() {
+		return restResult(null, CommonConstants.FAIL, null);
 	}
 
-	private Result(IResultCode resultCode, T data, String msg) {
-		this(resultCode.getCode(), data, msg);
+	public static <T> Result<T> failed(String msg) {
+		return restResult(null, CommonConstants.FAIL, msg);
 	}
 
-	private Result(int code, T data, String msg) {
-		this.code = code;
-		this.data = data;
-		this.msg = msg;
-		this.time = System.currentTimeMillis();
+	public static <T> Result<T> failed(T data) {
+		return restResult(data, CommonConstants.FAIL, null);
 	}
 
-	/**
-	 * 返回状态码
-	 *
-	 * @param resultCode 状态码
-	 * @param <T>        泛型标识
-	 * @return ApiResult
-	 */
-	public static <T> Result<T> success(IResultCode resultCode) {
-		return new Result<>(resultCode);
+	public static <T> Result<T> failed(T data, String msg) {
+		return restResult(data, CommonConstants.FAIL, msg);
 	}
 
-	public static <T> Result<T> success(String msg) {
-		return new Result<>(ResultCode.SUCCESS, msg);
-	}
-
-	public static <T> Result<T> success(IResultCode resultCode, String msg) {
-		return new Result<>(resultCode, msg);
-	}
-
-	public static <T> Result<T> data(T data) {
-		return data(data, MateConstant.DEFAULT_SUCCESS_MESSAGE);
-	}
-
-	public static <T> Result<T> data(T data, String msg) {
-		return data(ResultCode.SUCCESS.code, data, msg);
-	}
-
-	public static <T> Result<T> data(int code, T data, String msg) {
-		return new Result<>(code, data, data == null ? MateConstant.DEFAULT_NULL_MESSAGE : msg);
-	}
-
-	public static <T> Result<T> fail() {
-		return new Result<>(ResultCode.FAILURE, ResultCode.FAILURE.getMsg());
-	}
-
-	public static <T> Result<T> fail(String msg) {
-		return new Result<>(ResultCode.FAILURE, msg);
-	}
-
-	public static <T> Result<T> fail(int code, String msg) {
-		return new Result<>(code, null, msg);
-	}
-
-	public static <T> Result<T> fail(IResultCode resultCode) {
-		return new Result<>(resultCode);
-	}
-
-	public static <T> Result<T> fail(IResultCode resultCode, String msg) {
-		return new Result<>(resultCode, msg);
-	}
-
-	public static <T> Result<T> condition(boolean flag) {
-		return flag ? success(MateConstant.DEFAULT_SUCCESS_MESSAGE) : fail(MateConstant.DEFAULT_FAIL_MESSAGE);
+	private static <T> Result<T> restResult(T data, int code, String msg) {
+		Result<T> apiResult = new Result<>();
+		apiResult.setCode(code);
+		apiResult.setData(data);
+		apiResult.setMsg(msg);
+		return apiResult;
 	}
 
 
@@ -118,14 +80,6 @@ public class Result<T> implements Serializable {
 
 	public void setMsg(String msg) {
 		this.msg = msg;
-	}
-
-	public long getTime() {
-		return time;
-	}
-
-	public void setTime(long time) {
-		this.time = time;
 	}
 
 	public T getData() {

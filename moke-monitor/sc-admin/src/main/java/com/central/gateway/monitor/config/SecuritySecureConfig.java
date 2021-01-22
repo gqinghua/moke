@@ -1,4 +1,4 @@
-package com.moke.gateway.monitor.config;
+package com.central.gateway.monitor.config;
 
 import de.codecentric.boot.admin.server.config.AdminServerProperties;
 import org.springframework.context.annotation.Configuration;

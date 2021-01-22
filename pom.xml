@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>8</java.version>
         <commons-collections4.version>4.2</commons-collections4.version>
-        <fastjson.version>1.2.54</fastjson.version>
+        <fastjson.version>1.2.75</fastjson.version>
         <swagger.version>2.9.2</swagger.version>
         <swagger.ui.version>1.8.7</swagger.ui.version>
         <swagger.mg.ui.version>1.0.6</swagger.mg.ui.version>
@@ -39,11 +39,11 @@
         <txlcn.version>5.0.2.RELEASE</txlcn.version>
         <platform-bom>Cairo-SR3</platform-bom>
         <spring-cloud-alibaba-dependencies.version>0.2.1.RELEASE</spring-cloud-alibaba-dependencies.version>
-        <spring-boot-dependencies.version>2.0.8.RELEASE</spring-boot-dependencies.version>
-        <spring-cloud-dependencies.version>Finchley.SR3</spring-cloud-dependencies.version>
+        <spring-boot-dependencies.version>2.1.3.RELEASE</spring-boot-dependencies.version>
+        <spring-cloud-dependencies.version>Greenwich.SR2</spring-cloud-dependencies.version>
         <spring-boot-maven-plugin.version>2.1.1.RELEASE</spring-boot-maven-plugin.version>
         <docker-maven-plugin.version>1.2.0</docker-maven-plugin.version>
-        <sonar.exclusions>mall-job/**/*, mall-register/**/*, mall-web/**/*</sonar.exclusions>
+        <sonar.exclusions>moke-job/**/*, moke-register/**/*, moke-web/**/*</sonar.exclusions>
         <docker.baseImage>openjdk:8-jre-alpine</docker.baseImage>
         <docker.volumes>/tmp</docker.volumes>
         <docker.image.prefix>hub.mall.com:8080/mallcloud</docker.image.prefix>
@@ -52,7 +52,6 @@
         <mysql.version>8.0.16</mysql.version>
         <jetcache.version>2.5.15</jetcache.version>
         <klock.version>1.3-RELEASE</klock.version>
-        <!--        <hutool.version>5.3.4</hutool.version>-->
         <skywalking.version>6.6.0</skywalking.version>
         <latest.version>1.13.1</latest.version>
     </properties>
