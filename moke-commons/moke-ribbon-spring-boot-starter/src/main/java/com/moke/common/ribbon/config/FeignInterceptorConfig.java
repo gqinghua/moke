@@ -14,6 +14,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 
+
 /**
  * feign拦截器
  *
@@ -38,7 +39,7 @@ public class FeignInterceptorConfig {
             }
             ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder
                     .getRequestAttributes();
-            HttpServletRequest request = attributes.getRequest();
+          HttpServletRequest request = attributes.getRequest();
             //传递userid
             String userid = request.getHeader(SecurityConstants.USER_ID_HEADER);
             if (StrUtil.isNotEmpty(userid)) {

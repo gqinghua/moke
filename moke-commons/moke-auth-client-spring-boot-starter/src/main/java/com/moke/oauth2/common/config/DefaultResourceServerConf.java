@@ -15,12 +15,14 @@ import org.springframework.security.web.AuthenticationEntryPoint;
 
 import javax.annotation.Resource;
 
+;
+
 /**
  * @author
  */
 @Import(DefaultSecurityHandlerConfig.class)
 public class DefaultResourceServerConf extends ResourceServerConfigurerAdapter {
-    @Autowired
+    @Autowired(required=true)
     private TokenStore tokenStore;
 
     @Resource
@@ -54,14 +56,15 @@ public class DefaultResourceServerConf extends ResourceServerConfigurerAdapter {
         setAuthenticate(authorizedUrl);
         //允许使用iframe 嵌套，避免swagger-ui 不被加载的问题
         http.headers()
-                    .frameOptions()
-                    .disable()
-                    .and()
+                .frameOptions()
+                .disable()
+                .and()
                 .csrf().disable();
     }
 
     /**
      * url权限控制，默认是认证就通过，可以重写实现个性化
+     *
      * @param authorizedUrl
      */
     public HttpSecurity setAuthenticate(ExpressionUrlAuthorizationConfigurer<HttpSecurity>.AuthorizedUrl authorizedUrl) {
@@ -70,6 +73,7 @@ public class DefaultResourceServerConf extends ResourceServerConfigurerAdapter {
 
     /**
      * 留给子类重写扩展功能
+     *
      * @param http
      */
     public HttpSecurity setHttp(HttpSecurity http) {

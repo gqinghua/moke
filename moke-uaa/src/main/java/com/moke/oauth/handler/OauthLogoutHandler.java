@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @Slf4j
 public class OauthLogoutHandler implements LogoutHandler {
-	@Autowired
+	@Autowired(required=true)
 	private TokenStore tokenStore;
 
 	@Override

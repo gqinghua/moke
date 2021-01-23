@@ -1,7 +1,7 @@
 package com.moke.oauth2.common.config;
 
-import com.moke.common.utils.ResponseUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.moke.common.utils.ResponseUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;

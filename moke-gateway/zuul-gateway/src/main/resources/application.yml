@@ -1,3 +1,9 @@
+#spring:
+#  cloud:
+#    sentinel:
+#      flow:
+#        nacos:
+
 /api-memberspring:
   # sentinel动态配置规则
   cloud:

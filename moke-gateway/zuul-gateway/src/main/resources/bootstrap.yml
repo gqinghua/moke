@@ -1,5 +1,6 @@
 server:
   port: 8085
+
   undertow:
     buffer-size: 1024
     direct-buffers: true
@@ -11,6 +12,10 @@ moke:
 spring:
   application:
     name: api-gateway
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true
   cloud:
     nacos:
       config:

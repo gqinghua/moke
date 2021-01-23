@@ -352,10 +352,7 @@ moke-life/moke-live/src/
 moke-life/moke-live/target/
 moke-life/moke-magic/src/main/
 moke-life/moke-magic/target/
-mok
-e-life/moke-mybatis/src/main/resources/
-moke-life/moke-mybatis/src/test/
-moke-life/moke-mybatis/target/
+
 moke-life/moke-recipe/src/test/
 moke-life/moke-recipe/target/
 moke-life/moke-theme/target/
@@ -416,5 +413,7 @@ sentinel-dashboard/target/site/
 sentinel-dashboard/target/surefire-reports/
 moke-business/renren-generator/target/classes/mapper/
 moke-commons/moke-ribbon-spring-boot-starter/target/generated-sources/
-moke-life/moke-mybatis/src/main/resources/
+
 moke-search/src/main/java/com/moke/search/config/
+moke-life/moke-mybatis/src/test/
+moke-life/moke-mybatis/target/
